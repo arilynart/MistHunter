@@ -8047,11 +8047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitKraken\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\MistHunterModuleRules.csproj",
+      "projectUniqueName": "E:\\Sourcetree\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\MistHunterModuleRules.csproj",
       "projectName": "MistHunterModuleRules",
-      "projectPath": "E:\\GitKraken\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\MistHunterModuleRules.csproj",
+      "projectPath": "E:\\Sourcetree\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\MistHunterModuleRules.csproj",
       "packagesPath": "C:\\Users\\arily\\.nuget\\packages\\",
-      "outputPath": "E:\\GitKraken\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\obj\\",
+      "outputPath": "E:\\Sourcetree\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arily\\AppData\\Roaming\\NuGet\\NuGet.Config",

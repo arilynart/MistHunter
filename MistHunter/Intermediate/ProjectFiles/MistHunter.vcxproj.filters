@@ -11,6 +11,7 @@
     <None Include="..\..\Source\MistHunterEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,42 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\MistHunter\MistHunter.h">
       <Filter>Source\MistHunter</Filter>
+    </ClInclude>
+    <Filter Include="Source\MistHunter\Private">
+      <UniqueIdentifier>{4493FE21-E316-3025-A51F-EEF4EDEFB599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MistHunter\Private\State">
+      <UniqueIdentifier>{7566A123-E38A-3F9F-845D-D2DC9E833C4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MistHunter\Private\State\Player">
+      <UniqueIdentifier>{065094DA-987B-3569-AA78-C2FD4A043D66}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MistHunter\Private\State\Player\StMachinePlayer.cpp">
+      <Filter>Source\MistHunter\Private\State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MistHunter\Private\State\Player\StPlayer.cpp">
+      <Filter>Source\MistHunter\Private\State\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MistHunter\Private\State\Player\StPlayerIdle.cpp">
+      <Filter>Source\MistHunter\Private\State\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\MistHunter\Public">
+      <UniqueIdentifier>{17FDD4D5-BB32-3CE2-8075-79792D8CCF60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MistHunter\Public\State">
+      <UniqueIdentifier>{20DEEAF8-B90F-310C-BA61-7E171BD9EAAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MistHunter\Public\State\Player">
+      <UniqueIdentifier>{4D352689-5E49-314E-973D-A752E86D5C34}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MistHunter\Public\State\Player\StMachinePlayer.h">
+      <Filter>Source\MistHunter\Public\State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MistHunter\Public\State\Player\StPlayer.h">
+      <Filter>Source\MistHunter\Public\State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MistHunter\Public\State\Player\StPlayerIdle.h">
+      <Filter>Source\MistHunter\Public\State\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

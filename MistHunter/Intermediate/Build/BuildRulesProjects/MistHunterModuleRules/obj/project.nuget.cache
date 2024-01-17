@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0SC7Nl1cGVTKAlAvYq+Jkv+Rp7E5N/7dPFr9pthvYeEJ/7YihxYkhGXTobS8HlFaacL32xab4X6y8qAe/EOLVg==",
+  "dgSpecHash": "HlhDl3uPY3wXJ+Bp23+fhGKgc8TG6YQSXJPj13lHbk+vP18icTToDC6Ja5tSz6Tw4fwR8WaUZWNLJBESJmJJXQ==",
   "success": true,
-  "projectFilePath": "E:\\GitKraken\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\MistHunterModuleRules.csproj",
+  "projectFilePath": "E:\\Sourcetree\\MistHunter\\MistHunter\\Intermediate\\Build\\BuildRulesProjects\\MistHunterModuleRules\\MistHunterModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arily\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",
     "C:\\Users\\arily\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
