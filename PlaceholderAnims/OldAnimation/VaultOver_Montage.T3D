@@ -1,0 +1,39 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="VaultOver_Montage" ExportPath="/Script/Engine.AnimMontage'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage'"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimationDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:AnimationDataModel'"
+   End Object
+   Begin Object Class=/Game/EchoContent/Blueprints/BP_NotifyState_ExitToLoco.BP_NotifyState_ExitToLoco_C Name="NotifyState_ExitToLoco_C_0" ExportPath="/Game/EchoContent/Blueprints/BP_NotifyState_ExitToLoco.BP_NotifyState_ExitToLoco_C'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:NotifyState_ExitToLoco_C_0'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:AnimDataModel'"
+   End Object
+   Begin Object Name="AnimationDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:AnimationDataModel'"
+      PlayLength=0.033333
+      FrameRate=(Numerator=30)
+      NumberOfFrames=1
+      NumberOfKeys=2
+   End Object
+   Begin Object Name="NotifyState_ExitToLoco_C_0" ExportPath="/Game/EchoContent/Blueprints/BP_NotifyState_ExitToLoco.BP_NotifyState_ExitToLoco_C'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:NotifyState_ExitToLoco_C_0'"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="AnimDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/VaultOver_Montage.VaultOver_Montage:AnimDataModel'"
+      NumberOfFrames=121800
+      NumberOfKeys=121801
+      bPopulated=True
+   End Object
+   BlendIn=(BlendTime=0.150000)
+   CompositeSections(0)=(SectionName="Default",LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'",AnimEndTime=2.030000))))
+   CommonTargetFrameRate=(Numerator=30)
+   Notifies(0)=(NotifyName="MotionWarping",Duration=0.382617,EndLink=(LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=0.489629,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'"),Guid=22F732884B6C40CE86E252AB5DE4E66E,LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=0.107012,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'")
+   Notifies(1)=(NotifyName="MotionWarping",Duration=0.401870,EndLink=(LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=1.236029,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'"),Guid=23ADC3404FF985C7E548669743C39F46,TrackIndex=1,LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=0.834159,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'")
+   Notifies(2)=(NotifyName="MotionWarping",Duration=0.349678,EndLink=(LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=1.538663,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'"),Guid=5E4A38B64ADCC5EEE87F6F871FC4D812,LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=1.188985,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'")
+   Notifies(3)=(EndTriggerTimeOffset=-0.000100,NotifyName="NotifyState_ExitToLoco_C",NotifyStateClass="/Game/EchoContent/Blueprints/BP_NotifyState_ExitToLoco.BP_NotifyState_ExitToLoco_C'NotifyState_ExitToLoco_C_0'",Duration=0.362548,EndLink=(LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=2.030000,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'"),Guid=686F5C0C44A972768BD652BEFE0BC73C,TrackIndex=1,LinkedMontage="/Script/Engine.AnimMontage'VaultOver_Montage'",SegmentIndex=0,SegmentLength=2.030000,LinkValue=1.667452,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/VaultOver.VaultOver'")
+   SequenceLength=2.030000
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   AnimNotifyTracks(1)=(TrackName="2",TrackColor=(R=0.900000,G=0.900000,B=0.900000,A=0.900000))
+   DataModelInterface=AnimDataModel'VaultOver_Montage:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/EchoContent/Characters/Echo/Meshes/Echo_Skeleton.Echo_Skeleton'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+End Object

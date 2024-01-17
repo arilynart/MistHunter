@@ -1,0 +1,42 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="ReachOut_Montage_RM" ExportPath="/Script/Engine.AnimMontage'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM'"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimationDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:AnimationDataModel'"
+   End Object
+   Begin Object Class=/Script/AnimGraphRuntime.AnimNotify_PlayMontageNotify Name="AnimNotify_PlayMontageNotify_1" ExportPath="/Script/AnimGraphRuntime.AnimNotify_PlayMontageNotify'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:AnimNotify_PlayMontageNotify_1'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:AnimDataModel'"
+   End Object
+   Begin Object Name="AnimationDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:AnimationDataModel'"
+      PlayLength=0.033333
+      FrameRate=(Numerator=30)
+      NumberOfFrames=1
+      NumberOfKeys=2
+   End Object
+   Begin Object Name="AnimNotify_PlayMontageNotify_1" ExportPath="/Script/AnimGraphRuntime.AnimNotify_PlayMontageNotify'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:AnimNotify_PlayMontageNotify_1'"
+      NotifyName="Touched"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="AnimDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Montage_RM.ReachOut_Montage_RM:AnimDataModel'"
+      NumberOfFrames=480000
+      NumberOfKeys=480001
+      bPopulated=True
+   End Object
+   CompositeSections(0)=(SectionName="Default",NextSectionName="Loop",LinkedMontage="/Script/Engine.AnimMontage'ReachOut_Montage_RM'",SegmentIndex=0,SegmentLength=1.333333,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Start.ReachOut_Start'")
+   CompositeSections(1)=(SectionName="Loop",NextSectionName="Loop",LinkedMontage="/Script/Engine.AnimMontage'ReachOut_Montage_RM'",SegmentIndex=1,SegmentBeginTime=1.333333,SegmentLength=6.666667,LinkValue=1.333333,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Loop.ReachOut_Loop'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Start.ReachOut_Start'",AnimEndTime=1.333333),(AnimReference="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Loop.ReachOut_Loop'",StartPos=1.333333,AnimEndTime=6.666667))))
+   BranchingPointMarkers(0)=(NotifyIndex=2,TriggerTime=1.333433)
+   CommonTargetFrameRate=(Numerator=30)
+   Notifies(0)=(TriggerTimeOffset=0.000100,EndTriggerTimeOffset=-0.000100,NotifyName="MotionWarping",Duration=1.333333,EndLink=(LinkedMontage="/Script/Engine.AnimMontage'ReachOut_Montage_RM'",SegmentIndex=1,SegmentBeginTime=1.333333,SegmentLength=6.666667,LinkValue=1.333333,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Loop.ReachOut_Loop'"),Guid=830B29284EB656C34D84B6B7494DB0F7,TrackIndex=1,LinkedMontage="/Script/Engine.AnimMontage'ReachOut_Montage_RM'",SegmentIndex=0,SegmentLength=1.333333,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Start.ReachOut_Start'")
+   Notifies(1)=(NotifyName="MotionWarping",Duration=0.541041,EndLink=(LinkedMontage="/Script/Engine.AnimMontage'ReachOut_Montage_RM'",SegmentIndex=0,SegmentLength=1.333333,LinkValue=0.594670,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Start.ReachOut_Start'"),Guid=B1E840F5479F11E2B5D96A92A3C08BB0,LinkedMontage="/Script/Engine.AnimMontage'ReachOut_Montage_RM'",SegmentIndex=0,SegmentLength=1.333333,LinkValue=0.053628,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Start.ReachOut_Start'")
+   Notifies(2)=(TriggerTimeOffset=0.000100,NotifyName="PlayMontageNotify",Notify="/Script/AnimGraphRuntime.AnimNotify_PlayMontageNotify'AnimNotify_PlayMontageNotify_1'",EndLink=(LinkValue=0.856977),Guid=696A1F5E43F54749DA7654B9D6FB5C11,TrackIndex=2,LinkedMontage="/Script/Engine.AnimMontage'ReachOut_Montage_RM'",SegmentIndex=1,SegmentBeginTime=1.333333,SegmentLength=6.666667,LinkValue=1.333333,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_Loop.ReachOut_Loop'")
+   SequenceLength=8.000000
+   RateScale=0.500000
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   AnimNotifyTracks(1)=(TrackName="2",TrackColor=(R=0.900000,G=0.900000,B=0.900000,A=0.900000))
+   AnimNotifyTracks(2)=(TrackName="3",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'ReachOut_Montage_RM:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/EchoContent/Characters/Echo/Meshes/Echo_Skeleton.Echo_Skeleton'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+End Object

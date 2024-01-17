@@ -1,0 +1,29 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="ReachOut_End_Montage" ExportPath="/Script/Engine.AnimMontage'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End_Montage.ReachOut_End_Montage'"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimationDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End_Montage.ReachOut_End_Montage:AnimationDataModel'"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End_Montage.ReachOut_End_Montage:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End_Montage.ReachOut_End_Montage:AnimDataModel'"
+   End Object
+   Begin Object Name="AnimationDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End_Montage.ReachOut_End_Montage:AnimationDataModel'"
+      PlayLength=0.033333
+      FrameRate=(Numerator=30)
+      NumberOfFrames=1
+      NumberOfKeys=2
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End_Montage.ReachOut_End_Montage:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="AnimDataModel" ExportPath="/Script/Engine.AnimDataModel'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End_Montage.ReachOut_End_Montage:AnimDataModel'"
+      NumberOfFrames=118000
+      NumberOfKeys=118001
+      bPopulated=True
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage="/Script/Engine.AnimMontage'ReachOut_End_Montage'",SegmentIndex=0,SegmentLength=1.966667,LinkedSequence="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End.ReachOut_End'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference="/Script/Engine.AnimSequence'/Game/EchoContent/Characters/Echo/Animations/ReachOut_End.ReachOut_End'",AnimEndTime=1.966667))))
+   CommonTargetFrameRate=(Numerator=30)
+   SequenceLength=1.966667
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'ReachOut_End_Montage:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/EchoContent/Characters/Echo/Meshes/Echo_Skeleton.Echo_Skeleton'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+End Object

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MistHunter",
+			"Path": "..\\Source\\MistHunter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MistHunterEditor",
+			"Path": "..\\Source\\MistHunterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
