@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\gitkraken\\misthunter\\misthunter\\source\\misthunter\\misthunter.cpp",
+        "Source": "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\misthunter.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\gitkraken\\misthunter\\misthunter\\intermediate\\build\\win64\\x64\\misthuntereditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\x64\\misthuntereditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "e:\\gitkraken\\misthunter\\misthunter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\misthunter\\definitions.misthunter.h",
-            "e:\\gitkraken\\misthunter\\misthunter\\source\\misthunter\\misthunter.h"
+            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\misthunter\\definitions.misthunter.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\misthunter.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

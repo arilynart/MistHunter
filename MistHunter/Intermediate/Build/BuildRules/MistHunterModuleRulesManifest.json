@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\GitKraken\\MistHunter\\MistHunter\\Source\\MistHunter\\MistHunter.Build.cs",
-		"E:\\GitKraken\\MistHunter\\MistHunter\\Source\\MistHunter.Target.cs",
-		"E:\\GitKraken\\MistHunter\\MistHunter\\Source\\MistHunterEditor.Target.cs"
+		"E:\\Sourcetree\\MistHunter\\MistHunter\\Source\\MistHunter\\MistHunter.Build.cs",
+		"E:\\Sourcetree\\MistHunter\\MistHunter\\Source\\MistHunter.Target.cs",
+		"E:\\Sourcetree\\MistHunter\\MistHunter\\Source\\MistHunterEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }

@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-MistHunter.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\GitKraken\MistHunter\MistHunter\Intermediate\Build\Win64\x64\MistHunterEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
-"E:\GitKraken\MistHunter\MistHunter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MistHunter\MistHunter.cpp.obj"
-"E:\GitKraken\MistHunter\MistHunter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MistHunter\Default.rc2.res"
-/OUT:"E:\GitKraken\MistHunter\MistHunter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MistHunter\UnrealEditor-MistHunter.lib"
+"E:\Sourcetree\MistHunter\MistHunter\Intermediate\Build\Win64\x64\MistHunterEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"E:\Sourcetree\MistHunter\MistHunter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MistHunter\MistHunter.cpp.obj"
+"E:\Sourcetree\MistHunter\MistHunter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MistHunter\Default.rc2.res"
+/OUT:"E:\Sourcetree\MistHunter\MistHunter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MistHunter\UnrealEditor-MistHunter.lib"
