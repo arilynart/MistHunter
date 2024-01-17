@@ -16,6 +16,7 @@ void AStMachinePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	CurrentState = new StPlayerIdle();
 }
 
 // Called every frame

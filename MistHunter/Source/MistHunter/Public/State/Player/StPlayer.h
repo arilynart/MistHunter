@@ -11,5 +11,8 @@ class MISTHUNTER_API StPlayer
 {
 public:
 	StPlayer();
-	~StPlayer();
+
+	virtual void Move() = 0;
+
+	virtual ~StPlayer() = 0;
 };

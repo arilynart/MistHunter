@@ -8,9 +8,12 @@
 /**
  * 
  */
-class MISTHUNTER_API StPlayerIdle : StPlayer
+class MISTHUNTER_API StPlayerIdle : public StPlayer
 {
 public:
 	StPlayerIdle();
+
+	virtual void Move() override;
+
 	~StPlayerIdle();
 };

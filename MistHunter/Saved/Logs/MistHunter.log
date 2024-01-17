@@ -1255,3 +1255,26 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.01.17-18.20.10:453][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
 [2024.01.17-18.20.10:461][586]Display: Reload/Re-instancing Complete: No object changes detected
 [2024.01.17-18.20.10:461][586]LogLiveCoding: Display: Live coding succeeded
+[2024.01.17-18.23.01:286][821]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.17-18.23.04:405][192]LogLiveCoding: Display:    Creating library E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_4.lib and object E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_4.exp
+[2024.01.17-18.23.04:554][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.01.17-18.23.04:566][197]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2024.01.17-18.23.04:566][197]LogLiveCoding: Display: Live coding succeeded
+[2024.01.17-18.26.16:194][911]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.01.17-18.43.22:561][ 22]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.17-18.43.25:091][321]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.01.17-18.43.25:091][321]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.01.17-18.45.02:605][ 93]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.17-18.45.04:929][369]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.01.17-18.45.04:929][369]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.01.17-18.47.47:457][726]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.17-18.47.49:780][  2]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.01.17-18.47.49:780][  2]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.01.17-18.48.00:800][621]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.17-18.48.02:015][766]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.01.17-18.48.02:015][766]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.01.17-18.50.16:177][420]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.17-18.50.20:364][907]LogLiveCoding: Display:    Creating library E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_5.lib and object E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_5.exp
+[2024.01.17-18.50.20:495][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.01.17-18.50.20:506][912]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2024.01.17-18.50.20:507][912]LogLiveCoding: Display: Live coding succeeded
