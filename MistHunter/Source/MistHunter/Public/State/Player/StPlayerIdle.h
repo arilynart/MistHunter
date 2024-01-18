@@ -4,16 +4,23 @@
 
 #include "CoreMinimal.h"
 #include "State/Player/StPlayer.h"
+#include "State/Player/StMachinePlayer.h"
 
 /**
  * 
  */
+
+
 class MISTHUNTER_API StPlayerIdle : public StPlayer
 {
 public:
 	StPlayerIdle();
 
-	virtual void Move() override;
+	void Enter(AStMachinePlayer* _machine) override;
+	void Exit(AStMachinePlayer* _machine) override;
+	void Move(float _inputX, float _inputY) override;
+
+	AStMachinePlayer* PlayerMachine;
 
 	~StPlayerIdle();
 };

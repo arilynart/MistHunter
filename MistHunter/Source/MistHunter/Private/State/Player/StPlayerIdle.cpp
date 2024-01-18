@@ -1,8 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-//State for handling movement under base conditions.
-
 #include "State/Player/StPlayerIdle.h"
 
 StPlayerIdle::StPlayerIdle()
@@ -13,7 +11,17 @@ StPlayerIdle::~StPlayerIdle()
 {
 }
 
-void StPlayerIdle::Move()
+void StPlayerIdle::Enter(AStMachinePlayer* _machine)
+{
+
+}
+
+void StPlayerIdle::Exit(AStMachinePlayer* _machine)
+{
+
+}
+
+void StPlayerIdle::Move(float _inputX, float _inputY)
 {
 
 }

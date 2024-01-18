@@ -15,9 +15,8 @@
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\public\\state\\player\\stplayer.h",
-            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\public\\state\\player\\stplayeridle.h",
-            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\stmachineplayer.generated.h"
+            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\stmachineplayer.generated.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\public\\state\\player\\stplayer.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

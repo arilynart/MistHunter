@@ -2,17 +2,22 @@
 
 #pragma once
 
+class AStMachinePlayer;
+
 #include "CoreMinimal.h"
 
 /**
  * 
  */
+
 class MISTHUNTER_API StPlayer
 {
 public:
 	StPlayer();
 
-	virtual void Move() = 0;
-
-	virtual ~StPlayer() = 0;
+	virtual void Enter(AStMachinePlayer* _machine) = 0;
+	virtual void Exit(AStMachinePlayer* _machine) = 0;
+	virtual void Move(float _inputX, float _inputY) = 0;
+	
+	virtual ~StPlayer();
 };

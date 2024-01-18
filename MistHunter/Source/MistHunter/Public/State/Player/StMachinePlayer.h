@@ -2,11 +2,15 @@
 
 #pragma once
 
+class StPlayer;
+
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "State/Player/StPlayer.h"
-#include "State/Player/StPlayerIdle.h"
 #include "StMachinePlayer.generated.h"
+
+/**
+ *
+ */
 
 UCLASS()
 class MISTHUNTER_API AStMachinePlayer : public ACharacter
@@ -17,7 +21,18 @@ public:
 	// Sets default values for this character's properties
 	AStMachinePlayer();
 
-	StPlayer* CurrentState;
+	//returns the current state class;
+	inline StPlayer* GetCurrentState() const { return currentState; }
+
+	//UFUNCTION(BlueprintCallable, Category = "State - Player")
+	void StateMove(float _inputX, float _inputY);
+
+	void SetState(StPlayer& _nextState);
+
+	~AStMachinePlayer();
+
+private:
+	StPlayer* currentState;
 
 protected:
 	// Called when the game starts or when spawned

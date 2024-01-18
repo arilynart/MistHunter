@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\private\\state\\player\\stplayeridle.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\x64\\misthuntereditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\misthunter\\definitions.misthunter.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
