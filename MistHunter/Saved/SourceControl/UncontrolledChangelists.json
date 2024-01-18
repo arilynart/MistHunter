@@ -6,6 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/Sourcetree/MistHunter/MistHunter/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/Mach_Player.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Inputs/InputMappingContext.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/CH_Player.uasset"
 			]
 		}

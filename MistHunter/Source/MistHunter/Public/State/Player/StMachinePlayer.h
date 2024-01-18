@@ -5,12 +5,17 @@
 class StPlayer;
 
 #include "CoreMinimal.h"
+#include "State/Player/StPlayer.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "StMachinePlayer.generated.h"
 
 /**
  *
  */
+
+class UPawnMovementComponent;
 
 UCLASS()
 class MISTHUNTER_API AStMachinePlayer : public ACharacter
@@ -21,18 +26,29 @@ public:
 	// Sets default values for this character's properties
 	AStMachinePlayer();
 
-	//returns the current state class;
-	inline StPlayer* GetCurrentState() const { return currentState; }
-
-	//UFUNCTION(BlueprintCallable, Category = "State - Player")
+	UFUNCTION(BlueprintCallable, Category = "State Machine")
 	void StateMove(float _inputX, float _inputY);
 
+	UFUNCTION(BlueprintCallable, Category = "State Machine")
+	void StateLook(float _inputX, float _inputY);
+
+	UFUNCTION(BlueprintCallable, Category = "State Machine")
+	void StateSprintStart();
+
+	UFUNCTION(BlueprintCallable, Category = "State Machine")
+	void StateSprintEnd();
+
 	void SetState(StPlayer& _nextState);
+
+	//----
+	void SetWalkSpeed(float _speed);
 
 	~AStMachinePlayer();
 
 private:
 	StPlayer* currentState;
+
+	UCharacterMovementComponent* movementComponent;
 
 protected:
 	// Called when the game starts or when spawned

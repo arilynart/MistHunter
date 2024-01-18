@@ -1,16 +1,17 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "State/Player/StMachinePlayer.h"
+
 #include "State/Player/StPlayer.h"
 #include "State/Player/StPlayerIdle.h"
+#include "State/Player/StMachinePlayer.h"
+
 
 // Sets default values
 AStMachinePlayer::AStMachinePlayer()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
+	currentState = &StPlayerIdle::GetInstance();
+	movementComponent = GetComponentByClass<UCharacterMovementComponent>();
 }
 
 AStMachinePlayer::~AStMachinePlayer()
@@ -22,9 +23,6 @@ AStMachinePlayer::~AStMachinePlayer()
 void AStMachinePlayer::BeginPlay()
 {
 	Super::BeginPlay();
-
-	StPlayerIdle _newState;
-	SetState(_newState);
 }
 
 // Called every frame
@@ -52,8 +50,27 @@ void AStMachinePlayer::SetState(StPlayer& _nextState)
 
 void AStMachinePlayer::StateMove(float _inputX, float _inputY)
 {
-	//Call the movement of our current state
 	currentState->Move(_inputX, _inputY);
+}
+
+void AStMachinePlayer::StateLook(float _inputX, float _inputY)
+{
+	//Call the movement of our current state
+	currentState->Look(_inputX, _inputY);
 
 }
 
+void AStMachinePlayer::StateSprintStart()
+{
+	currentState->SprintStart();
+}
+
+void AStMachinePlayer::StateSprintEnd()
+{
+	currentState->SprintEnd();
+}
+
+void AStMachinePlayer::SetWalkSpeed(float _speed)
+{
+	movementComponent->MaxWalkSpeed = _speed;
+}
