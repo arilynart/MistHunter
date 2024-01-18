@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include <string>
+#include <sstream>
+#include "MistHunter/MistHunter.h"
 #include "State/Player/StPlayerIdle.h"
 #include "State/Player/StMachinePlayer.h"
 
@@ -29,24 +31,26 @@ void StPlayerIdle::Exit(AStMachinePlayer* _machine)
 //CONTROL DEFINITIONS
 void StPlayerIdle::Move(float _inputX, float _inputY)
 {
+	TArray< FStringFormatArg > args;
+	args.Add(FStringFormatArg(_inputX));
+	args.Add(FStringFormatArg(_inputY));
+	FString _debug0 = FString::Format(TEXT("Movement X = {0} Y = {1}"), args);
 
-	//Call the movement of our current state
 
-	UKismetMathLibrary _library;
+	LOG("DEBUG -- StPlayerIdle::Move -- %s", *_debug0);
 
-	
 	FVector _inputSpeed = { _inputX, _inputY, 0 };
-	FVector _clamp = _library.ClampVectorSize(_inputSpeed, 0.207, 0.332);
+	FVector _clamp = PlayerMachine->MathClamp(_inputSpeed, 0.207, 0.332);
 
-	bool over(_library.Abs(_inputSpeed.Size()) < 0.586);
-	FVector _select = _library.SelectVector(_clamp, _inputSpeed, over);
+	bool over(PlayerMachine->MathAbs(_inputSpeed.Size()) < 0.586);
+	FVector _select = PlayerMachine->MathSelectVector(_clamp, _inputSpeed, over);
 
 	FRotator _rot = { 0, PlayerMachine->GetControlRotation().Yaw, 0 };
-	FVector _horizontalVector = _library.GetForwardVector(_rot);
-	FVector _verticalVector = _library.GetRightVector(_rot);
+	FVector _horizontalVector = PlayerMachine->MathForwardVector(_rot);
+	FVector _verticalVector = PlayerMachine->MathRightVector(_rot);
 
-	PlayerMachine->AddMovementInput(_horizontalVector, _select.X);
-	PlayerMachine->AddMovementInput(_verticalVector, _select.Y);
+	if (_inputX > 0) PlayerMachine->AddMovementInput(_horizontalVector, _select.X);
+	if (_inputY > 0) PlayerMachine->AddMovementInput(_verticalVector, _select.Y);
 }
 
 void StPlayerIdle::Look(float _inputX, float _inputY)

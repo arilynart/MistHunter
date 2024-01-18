@@ -6,7 +6,6 @@ class StPlayer;
 
 #include "CoreMinimal.h"
 #include "State/Player/StPlayer.h"
-#include "Kismet/KismetMathLibrary.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "StMachinePlayer.generated.h"
@@ -15,7 +14,7 @@ class StPlayer;
  *
  */
 
-class UPawnMovementComponent;
+class UKismetMathLibrary;
 
 UCLASS()
 class MISTHUNTER_API AStMachinePlayer : public ACharacter
@@ -43,12 +42,26 @@ public:
 	//----
 	void SetWalkSpeed(float _speed);
 
+
+
+	//converted math functions
+	float MathAbs(float _a);
+	FVector MathClamp(FVector _a, float _min, float _max);
+	FVector MathSelectVector(FVector _a, FVector _b, bool _select);
+	FVector MathForwardVector(FRotator _rot);
+	FVector MathRightVector(FRotator _rot);
+
 	~AStMachinePlayer();
 
 private:
 	StPlayer* currentState;
 
 	UCharacterMovementComponent* movementComponent;
+
+	UKismetMathLibrary* lib;
+
+	bool triggeredState = false;
+	void StateCheck();
 
 protected:
 	// Called when the game starts or when spawned
