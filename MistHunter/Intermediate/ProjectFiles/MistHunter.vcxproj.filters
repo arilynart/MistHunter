@@ -54,6 +54,9 @@
     <ClCompile Include="..\..\Source\MistHunter\Private\State\Player\StPlayer.cpp">
       <Filter>Source\MistHunter\Private\State\Player</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MistHunter\Private\State\Player\StPlayerIdle.cpp">
+      <Filter>Source\MistHunter\Private\State\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\MistHunter\Public">
       <UniqueIdentifier>{17FDD4D5-BB32-3CE2-8075-79792D8CCF60}</UniqueIdentifier>
     </Filter>
@@ -67,6 +70,9 @@
       <Filter>Source\MistHunter\Public\State\Player</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MistHunter\Public\State\Player\StPlayer.h">
+      <Filter>Source\MistHunter\Public\State\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MistHunter\Public\State\Player\StPlayerIdle.h">
       <Filter>Source\MistHunter\Public\State\Player</Filter>
     </ClInclude>
   </ItemGroup>

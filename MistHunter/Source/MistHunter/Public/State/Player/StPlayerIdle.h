@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "State/Player/StPlayer.h"
 #include "State/Player/StMachinePlayer.h"
+#include "Kismet/KismetMathLibrary.h"
 
 /**
  * 
@@ -20,7 +21,10 @@ public:
 	void Exit(AStMachinePlayer* _machine) override;
 	void Move(float _inputX, float _inputY) override;
 
+	~StPlayerIdle();
+
+private:
 	AStMachinePlayer* PlayerMachine;
 
-	~StPlayerIdle();
+	UKismetMathLibrary Library;
 };

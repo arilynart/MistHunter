@@ -1721,3 +1721,49 @@ E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch
 [2024.01.18-06.00.05:290][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
 [2024.01.18-06.00.05:530][ 87]Display: Reload/Re-instancing Complete: 1 class unchanged
 [2024.01.18-06.00.05:531][ 87]LogLiveCoding: Display: Live coding succeeded
+[2024.01.18-06.15.42:906][950]LogDerivedDataCache: C:/Users/arily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.113 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3662 files in 5283 folders with total size 725 MiB.
+[2024.01.18-06.51.30:763][390]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.05.39:832][936]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.09.45:142][671]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.11.38:572][ 11]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.12.26:211][154]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.14.23:542][506]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.15.06:141][633]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.15.43:942][747]LogDerivedDataCache: C:/Users/arily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.148 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3662 files in 5283 folders with total size 725 MiB.
+[2024.01.18-07.20.42:530][642]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.29.50:542][285]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.35.29:479][302]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.46.30:922][285]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.18-07.56.45:018][127]LogAnalytics: Warning: EventCache either took too long to flush (1.692 ms) or had a very large payload (0.432 KB, 1 events). Listing events in the payload for investigation:
+[2024.01.18-07.56.45:019][127]LogAnalytics: Warning:     Editor.Usage.Heartbeat,429
+[2024.01.18-08.05.13:413][964]Running E:/Shit Game/Fortnite/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="E:/Sourcetree/MistHunter/MistHunter/MistHunter.uproject" -game -rocket -progress
+[2024.01.18-08.05.13:528][964]Using bundled DotNet SDK version: 6.0.302
+[2024.01.18-08.05.13:528][964]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="E:/Sourcetree/MistHunter/MistHunter/MistHunter.uproject" -game -rocket -progress
+[2024.01.18-08.05.15:037][964]Log file: C:\Users\arily\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.01.18-08.05.15:339][964]
+[2024.01.18-08.05.15:339][964]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2024.01.18-08.05.15:339][964]See the log file for detailed information
+[2024.01.18-08.05.15:339][964]
+[2024.01.18-08.05.15:339][964]
+[2024.01.18-08.05.15:339][964]Generating VisualStudio project files:
+[2024.01.18-08.05.15:339][964]Discovering modules, targets and source code for project...
+[2024.01.18-08.05.18:460][964]Binding IntelliSense data...
+[2024.01.18-08.05.31:141][964]Binding IntelliSense data... 75%
+[2024.01.18-08.05.31:141][964]Binding IntelliSense data... 100%
+[2024.01.18-08.05.31:141][964]Creating common properties file...
+[2024.01.18-08.05.31:141][964]Creating common properties file... 0%
+[2024.01.18-08.05.31:141][964]Writing project files...
+[2024.01.18-08.05.32:148][964]Writing project files... 100%
+[2024.01.18-08.05.32:148][964]
+[2024.01.18-08.05.32:148][964]Generating QueryTargets data for editor...
+[2024.01.18-08.14.24:462][ 59]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.18-08.14.39:898][394]LogLiveCoding: Display:    Creating library E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_9.lib and object E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_9.exp
+[2024.01.18-08.14.40:639][395]LogUObjectHash: Compacting FUObjectHashTables data took  18.43ms
+[2024.01.18-08.14.41:004][396]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.01.18-08.14.41:004][396]LogLiveCoding: Display: Live coding succeeded
+[2024.01.18-08.15.42:877][495]LogDerivedDataCache: C:/Users/arily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.082 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3662 files in 5283 folders with total size 725 MiB.
+[2024.01.18-08.16.33:290][679]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.18-08.16.38:267][220]LogLiveCoding: Display:    Creating library E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_10.lib and object E:\Sourcetree\MistHunter\MistHunter\Binaries\Win64\UnrealEditor-MistHunter.patch_10.exp
+[2024.01.18-08.16.38:747][226]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2024.01.18-08.16.39:038][227]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2024.01.18-08.16.39:038][227]LogLiveCoding: Display: Live coding succeeded

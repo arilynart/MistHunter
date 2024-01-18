@@ -3,6 +3,7 @@
 
 #include "State/Player/StMachinePlayer.h"
 #include "State/Player/StPlayer.h"
+#include "State/Player/StPlayerIdle.h"
 
 // Sets default values
 AStMachinePlayer::AStMachinePlayer()
@@ -21,6 +22,9 @@ AStMachinePlayer::~AStMachinePlayer()
 void AStMachinePlayer::BeginPlay()
 {
 	Super::BeginPlay();
+
+	StPlayerIdle _newState;
+	SetState(_newState);
 }
 
 // Called every frame
