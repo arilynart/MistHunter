@@ -1524,3 +1524,569 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.01.19-20.09.05:548][581]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
 [2024.01.19-20.11.55:306][496]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2024.01.19-20.17.45:646][572]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.19-20.18.48:836][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.01.19-20.18.48:840][761]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testing' took 0.021
+[2024.01.19-20.18.48:841][761]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Locomotion/ABP_Player] ([2] browsable assets)...
+[2024.01.19-20.18.48:841][761]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.19-20.18.48:935][761]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Locomotion/ABP_Player.ABP_Player]
+[2024.01.19-20.18.48:935][761]OBJ SavePackage: Finished generating thumbnails for package [/Game/Locomotion/ABP_Player]
+[2024.01.19-20.18.48:935][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/ABP_Player" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Autosaves/Game/Locomotion/ABP_Player_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2024.01.19-20.18.48:962][761]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Locomotion/ABP_Player_Auto6
+[2024.01.19-20.18.48:962][761]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/ABP_Player_Auto6B455021B49BEA53FD1BFFEA6F049EDAB.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Autosaves/Game/Locomotion/ABP_Player_Auto6.uasset'
+[2024.01.19-20.18.48:963][761]LogFileHelpers: Auto-saving content packages took 0.123
+[2024.01.19-20.18.49:085][762]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.19-20.19.31:218][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.01.19-20.19.32:279][584]LogSlate: Window 'Save Content' being destroyed
+[2024.01.19-20.19.32:286][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-20.19.32:319][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/ABP_Player" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset" SILENT=true
+[2024.01.19-20.19.32:352][584]LogSavePackage: Moving output files for package: /Game/Locomotion/ABP_Player
+[2024.01.19-20.19.32:353][584]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/ABP_PlayerB37B95BD4D9D569CCF873BBFDC32E0A6.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset'
+[2024.01.19-20.19.32:359][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 884 ms)
+[2024.01.19-20.19.32:367][584]AssetCheck: New page: Asset Save: ABP_Player
+[2024.01.19-20.19.32:367][584]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Locomotion/ABP_Player.ABP_Player
+[2024.01.19-20.19.32:380][585]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.19-20.19.34:096][748]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.19.34:097][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.19.34:120][748]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.19.34:120][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.19.34:169][748]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.19.34:169][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.19.37:577][139]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.19-20.19.37:637][140]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.19-20.19.43:753][846]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_To_Jog_Fwd.Idle_To_Jog_Fwd
+[2024.01.19-20.19.43:755][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.19.43:755][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.19.43:763][846]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.19.43:984][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.19.43:984][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.19.44:095][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.19.44:122][846]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2024.01.19-20.19.44:127][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.19.44:128][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.19.44:165][846]LogViewport: Scene viewport resized to 988x460, mode Windowed.
+[2024.01.19-20.19.44:197][846]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-20.19.44:280][848]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.21.26:202][953]Cmd: TRANSACTION UNDO
+[2024.01.19-20.21.26:202][953]LogEditorTransaction: Undo Move Anim Notifies
+[2024.01.19-20.21.26:310][953]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.21.57:178][540]Cmd: TRANSACTION UNDO
+[2024.01.19-20.21.57:178][540]LogEditorTransaction: Undo Move Anim Notifies
+[2024.01.19-20.21.57:291][540]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.22.05:113][227]Cmd: TRANSACTION UNDO
+[2024.01.19-20.22.05:113][227]LogEditorTransaction: Undo Paste Anim Notifies
+[2024.01.19-20.22.05:224][227]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.22.05:464][230]Cmd: TRANSACTION UNDO
+[2024.01.19-20.22.05:464][230]LogEditorTransaction: Undo Edit State Name
+[2024.01.19-20.22.05:577][230]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.22.06:434][297]Cmd: TRANSACTION REDO
+[2024.01.19-20.22.06:434][297]LogEditorTransaction: Redo Edit State Name
+[2024.01.19-20.22.06:543][297]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.22.08:082][432]Cmd: TRANSACTION REDO
+[2024.01.19-20.22.08:082][432]LogEditorTransaction: Redo Paste Anim Notifies
+[2024.01.19-20.22.08:192][432]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.22.08:875][483]Cmd: TRANSACTION UNDO
+[2024.01.19-20.22.08:875][483]LogEditorTransaction: Undo Paste Anim Notifies
+[2024.01.19-20.22.08:983][483]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.27.53:545][291]LogViewport: Scene viewport resized to 862x460, mode Windowed.
+[2024.01.19-20.27.53:594][295]LogViewport: Scene viewport resized to 863x460, mode Windowed.
+[2024.01.19-20.27.54:946][418]LogViewport: Scene viewport resized to 864x460, mode Windowed.
+[2024.01.19-20.27.54:964][419]LogViewport: Scene viewport resized to 872x460, mode Windowed.
+[2024.01.19-20.27.54:983][420]LogViewport: Scene viewport resized to 883x460, mode Windowed.
+[2024.01.19-20.27.55:003][421]LogViewport: Scene viewport resized to 901x460, mode Windowed.
+[2024.01.19-20.27.55:026][422]LogViewport: Scene viewport resized to 927x460, mode Windowed.
+[2024.01.19-20.27.55:054][423]LogViewport: Scene viewport resized to 952x460, mode Windowed.
+[2024.01.19-20.27.55:072][424]LogViewport: Scene viewport resized to 962x460, mode Windowed.
+[2024.01.19-20.27.55:089][425]LogViewport: Scene viewport resized to 974x460, mode Windowed.
+[2024.01.19-20.27.55:108][426]LogViewport: Scene viewport resized to 985x460, mode Windowed.
+[2024.01.19-20.27.55:126][427]LogViewport: Scene viewport resized to 990x460, mode Windowed.
+[2024.01.19-20.27.55:143][428]LogViewport: Scene viewport resized to 997x460, mode Windowed.
+[2024.01.19-20.27.55:160][429]LogViewport: Scene viewport resized to 999x460, mode Windowed.
+[2024.01.19-20.27.55:178][430]LogViewport: Scene viewport resized to 1001x460, mode Windowed.
+[2024.01.19-20.27.55:336][445]LogViewport: Scene viewport resized to 1004x460, mode Windowed.
+[2024.01.19-20.27.55:355][446]LogViewport: Scene viewport resized to 1006x460, mode Windowed.
+[2024.01.19-20.27.55:375][447]LogViewport: Scene viewport resized to 1010x460, mode Windowed.
+[2024.01.19-20.27.55:394][448]LogViewport: Scene viewport resized to 1011x460, mode Windowed.
+[2024.01.19-20.27.55:415][449]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-20.28.09:439][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-20.28.09:497][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Idle_To_Jog_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_To_Jog_Fwd.uasset" SILENT=true
+[2024.01.19-20.28.09:510][387]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_To_Jog_Fwd
+[2024.01.19-20.28.09:511][387]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_To_Jog_FwdA1B98A624B97DC1A9A626AB6E372D546.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_To_Jog_Fwd.uasset'
+[2024.01.19-20.28.09:518][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 964 ms)
+[2024.01.19-20.28.09:521][387]AssetCheck: New page: Asset Save: Idle_To_Jog_Fwd
+[2024.01.19-20.28.09:521][387]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_To_Jog_Fwd.Idle_To_Jog_Fwd
+[2024.01.19-20.28.24:190][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-20.28.24:239][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Idle_To_Jog_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_To_Jog_Fwd.uasset" SILENT=true
+[2024.01.19-20.28.24:246][ 90]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_To_Jog_Fwd
+[2024.01.19-20.28.24:246][ 90]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_To_Jog_FwdD427E7C6459A791199795BBD80037D7B.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_To_Jog_Fwd.uasset'
+[2024.01.19-20.28.24:252][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 1.02 sec)
+[2024.01.19-20.28.24:254][ 90]AssetCheck: New page: Asset Save: Idle_To_Jog_Fwd
+[2024.01.19-20.28.24:254][ 90]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_To_Jog_Fwd.Idle_To_Jog_Fwd
+[2024.01.19-20.28.25:352][187]LogSlate: Window 'Idle_To_Jog_Fwd' being destroyed
+[2024.01.19-20.28.25:355][187]LogSlate: Window 'Idle_To_Jog_Fwd' being destroyed
+[2024.01.19-20.28.25:370][187]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.28.25:370][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.28.25:382][187]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.28.25:382][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.28.25:433][187]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.28.25:433][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.28.34:758][497]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90.Idle_to_Jog_Fwd_Left_90
+[2024.01.19-20.28.34:759][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.28.34:759][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.28.34:766][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.28.34:966][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.28.34:966][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.28.35:132][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.28.35:132][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.28.35:145][497]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-20.28.35:163][497]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-20.30.16:800][ 21]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-20.30.43:609][844]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-20.30.43:683][844]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90
+[2024.01.19-20.30.43:684][844]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Left_90F209C2E94295600A4965A1B2C86F225A.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90.uasset'
+[2024.01.19-20.30.43:689][844]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.10 sec)
+[2024.01.19-20.30.43:691][844]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Left_90
+[2024.01.19-20.30.43:691][844]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90.Idle_to_Jog_Fwd_Left_90
+[2024.01.19-20.30.54:164][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-20.30.54:226][995]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90
+[2024.01.19-20.30.54:226][995]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Left_90A17B6AC4471E97613D8231A1AF11D89D.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90.uasset'
+[2024.01.19-20.30.54:233][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.17 sec)
+[2024.01.19-20.30.54:239][995]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Left_90
+[2024.01.19-20.30.54:239][995]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90.Idle_to_Jog_Fwd_Left_90
+[2024.01.19-20.30.55:392][ 75]LogSlate: Window 'Idle_to_Jog_Fwd_Left_90' being destroyed
+[2024.01.19-20.30.55:395][ 75]LogSlate: Window 'Idle_to_Jog_Fwd_Left_90' being destroyed
+[2024.01.19-20.30.55:410][ 75]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.30.55:410][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.30.55:422][ 75]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.30.55:422][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.30.55:473][ 75]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-20.30.55:474][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-20.30.57:218][272]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180.Idle_to_Jog_Fwd_Left_180
+[2024.01.19-20.30.57:218][272]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.30.57:218][272]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.30.57:224][272]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-20.30.57:430][272]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.30.57:430][272]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.30.57:595][272]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-20.30.57:595][272]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-20.30.57:608][272]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-20.30.57:626][272]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-20.31.42:777][186]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-20.31.42:832][186]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180
+[2024.01.19-20.31.42:832][186]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Left_180239C87D6462D4DE2DF347588596CD94D.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180.uasset'
+[2024.01.19-20.31.42:839][186]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 1.23 sec)
+[2024.01.19-20.31.42:842][186]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Left_180
+[2024.01.19-20.31.42:842][186]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180.Idle_to_Jog_Fwd_Left_180
+[2024.01.19-20.31.51:863][664]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-20.32.08:045][830]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-20.32.08:116][830]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180
+[2024.01.19-20.32.08:116][830]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Left_18075BBA38C460351BD5E46D9978DE0D82F.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180.uasset'
+[2024.01.19-20.32.08:121][830]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.31 sec)
+[2024.01.19-20.32.08:123][830]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Left_180
+[2024.01.19-20.32.08:123][830]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180.Idle_to_Jog_Fwd_Left_180
+[2024.01.19-20.51.44:428][900]LogDerivedDataCache: C:/Users/arily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.101 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4157 files in 5893 folders with total size 730 MiB.
+[2024.01.19-21.26.17:498][434]LogSlate: Window 'Idle_to_Jog_Fwd_Left_180' being destroyed
+[2024.01.19-21.26.17:501][434]LogSlate: Window 'Idle_to_Jog_Fwd_Left_180' being destroyed
+[2024.01.19-21.26.17:517][434]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.26.17:517][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.26.17:529][434]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.26.17:530][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.26.17:582][434]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.26.17:582][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.26.20:638][785]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_90.Idle_to_Jog_Fwd_Right_90
+[2024.01.19-21.26.20:638][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.26.20:638][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.26.20:646][785]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.26.20:859][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.26.20:859][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.26.21:033][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.26.21:033][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.26.21:045][785]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.26.21:063][785]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.27.20:148][798]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-21.27.46:366][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.27.46:433][591]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_90
+[2024.01.19-21.27.46:434][591]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Right_90A0F9BFDD48A41E64C4E0AFA978F54EBE.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Right_90.uasset'
+[2024.01.19-21.27.46:438][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.38 sec)
+[2024.01.19-21.27.46:441][591]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Right_90
+[2024.01.19-21.27.46:441][591]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_90.Idle_to_Jog_Fwd_Right_90
+[2024.01.19-21.31.11:601][ 85]LogSlate: Window 'Idle_to_Jog_Fwd_Right_90' being destroyed
+[2024.01.19-21.31.11:603][ 85]LogSlate: Window 'Idle_to_Jog_Fwd_Right_90' being destroyed
+[2024.01.19-21.31.11:620][ 85]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.31.11:620][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.31.11:632][ 85]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.31.11:632][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.31.11:696][ 85]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.31.11:696][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.31.13:960][342]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.31.13:960][342]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.31.13:961][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.31.13:968][342]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.31.14:186][342]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.31.14:186][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.31.14:344][342]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.31.14:344][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.31.14:358][342]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.31.14:374][342]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.33.20:706][168]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.33.20:775][168]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.20:776][168]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Right_180AD0F582C4689711C725371849A70606A.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.uasset'
+[2024.01.19-21.33.20:780][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.46 sec)
+[2024.01.19-21.33.20:783][168]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.20:783][168]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.29:725][558]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-21.33.33:384][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.33.33:458][898]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.33:458][898]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Right_180F32B78B6436EFD5299AE67887F1A0BD8.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.uasset'
+[2024.01.19-21.33.33:462][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 1.53 sec)
+[2024.01.19-21.33.33:464][898]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.33:464][898]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.48:739][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.33.48:808][737]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.48:808][737]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Jog_Fwd_Right_1803F923D374E668223AA48A785859EB73D.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.uasset'
+[2024.01.19-21.33.48:813][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 1.61 sec)
+[2024.01.19-21.33.48:814][737]AssetCheck: New page: Asset Save: Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.33.48:814][737]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.34.26:811][388]LogSlate: Window 'Idle_to_Jog_Fwd_Right_180' being destroyed
+[2024.01.19-21.34.26:814][388]LogSlate: Window 'Idle_to_Jog_Fwd_Right_180' being destroyed
+[2024.01.19-21.34.26:830][388]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.34.26:830][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.34.26:840][388]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.34.26:840][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.34.26:892][388]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.34.26:892][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.34.40:716][714]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd.Idle_to_Walk_Fwd
+[2024.01.19-21.34.40:717][714]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.34.40:717][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.34.40:724][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.34.40:936][714]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.34.40:936][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.34.41:098][714]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.34.41:098][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.34.41:114][714]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.34.41:131][714]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.35.42:754][767]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-21.35.44:314][894]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.35.44:380][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Idle_to_Walk_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd.uasset" SILENT=true
+[2024.01.19-21.35.44:388][894]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd
+[2024.01.19-21.35.44:388][894]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd614A2D1E4278218891C9BDA44AE0E58F.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd.uasset'
+[2024.01.19-21.35.44:394][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.69 sec)
+[2024.01.19-21.35.44:395][894]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd
+[2024.01.19-21.35.44:395][894]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd.Idle_to_Walk_Fwd
+[2024.01.19-21.36.19:087][ 95]LogSlate: Window 'Idle_to_Walk_Fwd' being destroyed
+[2024.01.19-21.36.19:089][ 95]LogSlate: Window 'Idle_to_Walk_Fwd' being destroyed
+[2024.01.19-21.36.19:105][ 95]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.36.19:106][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.36.19:118][ 95]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.36.19:118][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.36.19:173][ 95]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.36.19:173][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.36.23:115][533]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_90.Idle_to_Walk_Fwd_Left_90
+[2024.01.19-21.36.23:115][533]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.36.23:115][533]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.36.23:123][533]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.36.23:325][533]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.36.23:325][533]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.36.23:485][533]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.36.23:485][533]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.36.23:497][533]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.36.23:513][533]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.37.15:036][444]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-21.37.18:972][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.37.19:052][801]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_90
+[2024.01.19-21.37.19:052][801]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd_Left_903A8BBA4A4DBDE07EEB208C8D4517850B.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Left_90.uasset'
+[2024.01.19-21.37.19:056][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 1.77 sec)
+[2024.01.19-21.37.19:058][801]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd_Left_90
+[2024.01.19-21.37.19:058][801]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_90.Idle_to_Walk_Fwd_Left_90
+[2024.01.19-21.37.21:987][ 23]LogSlate: Window 'Idle_to_Walk_Fwd_Left_90' being destroyed
+[2024.01.19-21.37.21:990][ 23]LogSlate: Window 'Idle_to_Walk_Fwd_Left_90' being destroyed
+[2024.01.19-21.37.22:006][ 23]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.37.22:006][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.37.22:016][ 23]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.37.22:017][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.37.22:070][ 23]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.37.22:070][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.38.19:499][461]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180.Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.38.19:499][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.38.19:500][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.38.19:506][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.38.19:708][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.38.19:709][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.38.19:871][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.38.19:871][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.38.19:884][461]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.38.19:901][461]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.38.54:250][227]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.38.54:300][227]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.38.54:300][227]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd_Left_1809059E9134B5BAF782BD6D3A1E65B359D.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180.uasset'
+[2024.01.19-21.38.54:304][227]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 1.83 sec)
+[2024.01.19-21.38.54:306][227]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.38.54:306][227]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180.Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.38.59:648][414]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-21.39.04:956][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.39.05:032][739]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.39.05:033][739]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd_Left_1802486AE2144D8B85BDF925E8E04137465.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180.uasset'
+[2024.01.19-21.39.05:037][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 1.91 sec)
+[2024.01.19-21.39.05:039][739]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.39.05:039][739]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180.Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.39.55:494][852]LogSlate: Window 'Idle_to_Walk_Fwd_Left_180' being destroyed
+[2024.01.19-21.39.55:496][852]LogSlate: Window 'Idle_to_Walk_Fwd_Left_180' being destroyed
+[2024.01.19-21.39.55:513][852]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.39.55:513][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.39.55:524][852]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.39.55:524][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.39.55:578][852]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.39.55:578][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.40.44:001][120]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_180.Idle_to_Walk_Fwd_Right_180
+[2024.01.19-21.40.44:002][120]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.40.44:002][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.40.44:008][120]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.40.44:224][120]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.40.44:224][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.40.44:405][120]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.40.44:405][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.40.44:418][120]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.40.44:435][120]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.40.51:037][746]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.40.51:098][746]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.40.51:098][746]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.40.51:136][746]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.40.51:136][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.40.56:465][228]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180.Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.40.56:514][228]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.40.56:514][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.40.56:527][228]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.40.56:527][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.40.57:920][329]LogSlate: Window 'Idle_to_Walk_Fwd_Left_180' being destroyed
+[2024.01.19-21.40.57:923][329]LogSlate: Window 'Idle_to_Walk_Fwd_Left_180' being destroyed
+[2024.01.19-21.40.57:938][329]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.40.57:938][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.40.57:949][329]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.40.57:949][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.40.58:002][329]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.40.58:002][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.01:559][709]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd.Idle_to_Walk_Fwd
+[2024.01.19-21.41.01:560][709]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.01:560][709]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.01:568][709]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.41.01:769][709]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.01:770][709]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.01:901][709]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.01:901][709]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.01:914][709]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.41.01:931][709]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.41.03:061][799]LogSlate: Window 'Idle_to_Walk_Fwd' being destroyed
+[2024.01.19-21.41.03:063][799]LogSlate: Window 'Idle_to_Walk_Fwd' being destroyed
+[2024.01.19-21.41.03:080][799]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.03:080][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.03:091][799]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.03:091][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.03:143][799]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.03:143][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.05:005][997]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Jog_Fwd_Right_180.Idle_to_Jog_Fwd_Right_180
+[2024.01.19-21.41.05:006][997]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.05:006][997]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.05:015][997]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.41.05:220][997]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.05:220][997]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.05:364][997]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.05:364][997]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.05:380][997]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.41.05:398][997]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.41.06:585][ 93]LogSlate: Window 'Idle_to_Jog_Fwd_Right_180' being destroyed
+[2024.01.19-21.41.06:587][ 93]LogSlate: Window 'Idle_to_Jog_Fwd_Right_180' being destroyed
+[2024.01.19-21.41.06:603][ 93]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.06:603][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.06:614][ 93]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.06:614][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.06:666][ 93]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.06:666][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.08:805][314]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_90.Idle_to_Walk_Fwd_Left_90
+[2024.01.19-21.41.08:806][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.08:806][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.08:817][314]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.41.09:010][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.09:010][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.09:142][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.09:142][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.09:154][314]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.41.09:170][314]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.41.10:415][418]LogSlate: Window 'Idle_to_Walk_Fwd_Left_90' being destroyed
+[2024.01.19-21.41.10:418][418]LogSlate: Window 'Idle_to_Walk_Fwd_Left_90' being destroyed
+[2024.01.19-21.41.10:433][418]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.10:433][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.10:444][418]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.10:444][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.10:499][418]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.10:499][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.12:121][589]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Left_180.Idle_to_Walk_Fwd_Left_180
+[2024.01.19-21.41.12:122][589]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.12:122][589]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.12:130][589]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.41.12:330][589]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.12:330][589]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.12:464][589]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.12:464][589]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.12:476][589]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.41.12:494][589]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.41.13:753][690]LogSlate: Window 'Idle_to_Walk_Fwd_Left_180' being destroyed
+[2024.01.19-21.41.13:757][690]LogSlate: Window 'Idle_to_Walk_Fwd_Left_180' being destroyed
+[2024.01.19-21.41.13:773][690]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.13:773][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.13:786][690]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.13:786][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.13:845][690]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.41.13:845][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.41.15:869][909]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.41.15:870][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.15:871][909]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.15:882][909]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.41.16:083][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.16:083][909]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.16:214][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.41.16:214][909]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.41.16:226][909]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.41.16:244][909]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.41.39:386][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.41.39:480][125]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.41.39:481][125]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd_Right_90A02AF90D4F6DB078FAD515A84C4F3420.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.uasset'
+[2024.01.19-21.41.39:487][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 2.01 sec)
+[2024.01.19-21.41.39:492][125]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.41.39:492][125]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.42.22:876][533]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-21.42.28:635][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.42.28:710][ 59]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.42.28:711][ 59]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd_Right_908BD1B465450F6EA65DC764BB7F73FCAB.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.uasset'
+[2024.01.19-21.42.28:715][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 2.09 sec)
+[2024.01.19-21.42.28:718][ 59]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.42.28:718][ 59]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.51.44:440][853]LogDerivedDataCache: C:/Users/arily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.113 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4157 files in 5893 folders with total size 730 MiB.
+[2024.01.19-21.52.51:698][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.52.51:752][464]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.52.51:752][464]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd_Right_90E90411BC4BA4A2EC5976B392BBAE16D5.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.uasset'
+[2024.01.19-21.52.51:757][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 2.15 sec)
+[2024.01.19-21.52.51:760][464]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.52.51:760][464]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_90.Idle_to_Walk_Fwd_Right_90
+[2024.01.19-21.52.52:643][534]LogSlate: Window 'Idle_to_Walk_Fwd_Right_90' being destroyed
+[2024.01.19-21.52.52:645][534]LogSlate: Window 'Idle_to_Walk_Fwd_Right_90' being destroyed
+[2024.01.19-21.52.52:661][534]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.52.52:661][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.52.52:675][534]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.52.52:675][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.52.52:732][534]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.52.52:732][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.52.54:995][770]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_180.Idle_to_Walk_Fwd_Right_180
+[2024.01.19-21.52.54:996][770]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.52.54:996][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.52.55:006][770]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.52.55:218][770]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.52.55:218][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.52.55:349][770]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.52.55:349][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.52.55:362][770]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.52.55:380][770]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-21.53.11:544][929]LogSlate: Window 'Create New Animation Object' being destroyed
+[2024.01.19-21.53.45:423][843]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-21.53.51:447][359]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-21.53.51:524][359]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_180
+[2024.01.19-21.53.51:525][359]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Idle_to_Walk_Fwd_Right_1805967C6DC4087E8FC42761D9117F3C534.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Right_180.uasset'
+[2024.01.19-21.53.51:528][359]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 2.23 sec)
+[2024.01.19-21.53.51:530][359]AssetCheck: New page: Asset Save: Idle_to_Walk_Fwd_Right_180
+[2024.01.19-21.53.51:530][359]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Idle_to_Walk_Fwd_Right_180.Idle_to_Walk_Fwd_Right_180
+[2024.01.19-21.57.44:231][974]LogSlate: Window 'Idle_to_Walk_Fwd_Right_180' being destroyed
+[2024.01.19-21.57.44:234][974]LogSlate: Window 'Idle_to_Walk_Fwd_Right_180' being destroyed
+[2024.01.19-21.57.44:251][974]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.57.44:251][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.57.44:262][974]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.57.44:262][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.57.44:319][974]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-21.57.44:319][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-21.59.22:324][  5]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Jog_Fwd.Jog_Fwd
+[2024.01.19-21.59.22:325][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.59.22:325][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.59.22:333][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-21.59.22:539][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.59.22:539][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.59.22:703][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-21.59.22:703][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-21.59.22:717][  5]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-21.59.22:733][  5]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-22.00.06:266][397]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-22.00.06:322][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Jog_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Jog_Fwd.uasset" SILENT=true
+[2024.01.19-22.00.06:329][397]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Jog_Fwd
+[2024.01.19-22.00.06:330][397]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Jog_Fwd727509184B7CD4EE72A68391FC7416FE.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Jog_Fwd.uasset'
+[2024.01.19-22.00.06:334][397]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 2.30 sec)
+[2024.01.19-22.00.06:336][397]AssetCheck: New page: Asset Save: Jog_Fwd
+[2024.01.19-22.00.06:336][397]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Jog_Fwd.Jog_Fwd
+[2024.01.19-22.00.12:476][629]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.19-22.00.16:847][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-22.00.16:904][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Jog_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Jog_Fwd.uasset" SILENT=true
+[2024.01.19-22.00.16:912][ 48]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Jog_Fwd
+[2024.01.19-22.00.16:912][ 48]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Jog_Fwd0E830FEA41C6C782D60E88987E339459.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Jog_Fwd.uasset'
+[2024.01.19-22.00.16:917][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 2.37 sec)
+[2024.01.19-22.00.16:919][ 48]AssetCheck: New page: Asset Save: Jog_Fwd
+[2024.01.19-22.00.16:919][ 48]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Jog_Fwd.Jog_Fwd
+[2024.01.19-22.00.46:575][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-22.00.46:629][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Jog_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Jog_Fwd.uasset" SILENT=true
+[2024.01.19-22.00.46:638][342]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Jog_Fwd
+[2024.01.19-22.00.46:638][342]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Jog_Fwd14EB2C974376400B5C06C78A70620363.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Jog_Fwd.uasset'
+[2024.01.19-22.00.46:645][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 2.44 sec)
+[2024.01.19-22.00.46:650][342]AssetCheck: New page: Asset Save: Jog_Fwd
+[2024.01.19-22.00.46:650][342]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Jog_Fwd.Jog_Fwd
+[2024.01.19-22.00.48:146][461]LogSlate: Window 'Jog_Fwd' being destroyed
+[2024.01.19-22.00.48:149][461]LogSlate: Window 'Jog_Fwd' being destroyed
+[2024.01.19-22.00.48:164][461]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.00.48:164][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.00.48:177][461]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.00.48:177][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.00.48:232][461]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.00.48:232][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.00.50:183][677]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Jog_Fwd_to_Idle.Jog_Fwd_to_Idle
+[2024.01.19-22.00.50:183][677]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-22.00.50:183][677]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-22.00.50:191][677]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-22.00.50:405][677]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-22.00.50:405][677]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-22.00.50:580][677]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-22.00.50:580][677]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-22.00.50:595][677]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-22.00.50:611][677]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-22.02.01:158][493]LogSlate: Window 'Jog_Fwd_to_Idle' being destroyed
+[2024.01.19-22.02.01:160][493]LogSlate: Window 'Jog_Fwd_to_Idle' being destroyed
+[2024.01.19-22.02.01:177][493]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.02.01:177][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.02.01:187][493]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.02.01:187][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.02.01:241][493]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.02.01:241][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.02.03:773][782]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Locomotion/Animations/Walk_Fwd.Walk_Fwd
+[2024.01.19-22.02.03:774][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-22.02.03:774][782]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-22.02.03:781][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.19-22.02.03:983][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-22.02.03:983][782]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-22.02.04:150][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.19-22.02.04:150][782]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.19-22.02.04:165][782]LogViewport: Scene viewport resized to 1013x460, mode Windowed.
+[2024.01.19-22.02.04:180][782]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.19-22.03.03:246][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-22.03.03:300][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Walk_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Walk_Fwd.uasset" SILENT=true
+[2024.01.19-22.03.03:309][417]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Walk_Fwd
+[2024.01.19-22.03.03:309][417]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Walk_Fwd1DA310AE410BAE8A1A810AAD7BEAB344.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Walk_Fwd.uasset'
+[2024.01.19-22.03.03:314][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 2.50 sec)
+[2024.01.19-22.03.03:316][417]AssetCheck: New page: Asset Save: Walk_Fwd
+[2024.01.19-22.03.03:316][417]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Walk_Fwd.Walk_Fwd
+[2024.01.19-22.03.37:335][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-22.03.37:400][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/Animations/Walk_Fwd" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Walk_Fwd.uasset" SILENT=true
+[2024.01.19-22.03.37:408][637]LogSavePackage: Moving output files for package: /Game/Locomotion/Animations/Walk_Fwd
+[2024.01.19-22.03.37:409][637]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/Walk_Fwd23F8D30343A5FA9087988384A510FDFF.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Walk_Fwd.uasset'
+[2024.01.19-22.03.37:413][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 2.58 sec)
+[2024.01.19-22.03.37:415][637]AssetCheck: New page: Asset Save: Walk_Fwd
+[2024.01.19-22.03.37:415][637]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Locomotion/Animations/Walk_Fwd.Walk_Fwd
+[2024.01.19-22.03.45:397][348]LogSlate: Window 'Walk_Fwd' being destroyed
+[2024.01.19-22.03.45:399][348]LogSlate: Window 'Walk_Fwd' being destroyed
+[2024.01.19-22.03.45:417][348]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.03.45:417][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.03.45:428][348]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.03.45:428][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-22.03.45:484][348]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-22.03.45:484][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
