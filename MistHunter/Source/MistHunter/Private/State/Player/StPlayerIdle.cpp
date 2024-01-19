@@ -31,13 +31,15 @@ void StPlayerIdle::Exit(AStMachinePlayer* _machine)
 //CONTROL DEFINITIONS
 void StPlayerIdle::Move(float _inputX, float _inputY)
 {
+	/*
 	TArray< FStringFormatArg > args;
 	args.Add(FStringFormatArg(_inputX));
 	args.Add(FStringFormatArg(_inputY));
 	FString _debug0 = FString::Format(TEXT("Movement X = {0} Y = {1}"), args);
 
 
-	LOG("DEBUG -- StPlayerIdle::Move -- %s", *_debug0);
+	LOG("DEBUG -- StPlayerIdle::Move0 -- %s", *_debug0);
+	*/
 
 	FVector _inputSpeed = { _inputX, _inputY, 0 };
 	FVector _clamp = PlayerMachine->MathClamp(_inputSpeed, 0.207, 0.332);
@@ -46,11 +48,27 @@ void StPlayerIdle::Move(float _inputX, float _inputY)
 	FVector _select = PlayerMachine->MathSelectVector(_clamp, _inputSpeed, over);
 
 	FRotator _rot = { 0, PlayerMachine->GetControlRotation().Yaw, 0 };
-	FVector _horizontalVector = PlayerMachine->MathForwardVector(_rot);
-	FVector _verticalVector = PlayerMachine->MathRightVector(_rot);
+	FVector _horizontalVector = PlayerMachine->MathRightVector(_rot);
+	FVector _verticalVector = PlayerMachine->MathForwardVector(_rot);
 
-	if (_inputX > 0) PlayerMachine->AddMovementInput(_horizontalVector, _select.X);
-	if (_inputY > 0) PlayerMachine->AddMovementInput(_verticalVector, _select.Y);
+	/*
+	args.Add(FStringFormatArg(_horizontalVector.X));
+	args.Add(FStringFormatArg(_horizontalVector.Y));
+	args.Add(FStringFormatArg(_horizontalVector.Z));
+	args.Add(FStringFormatArg(_select.X));
+	args.Add(FStringFormatArg(_verticalVector.X));
+	args.Add(FStringFormatArg(_verticalVector.Y));
+	args.Add(FStringFormatArg(_verticalVector.Z));
+	args.Add(FStringFormatArg(_select.Y));
+	FString _debug1 = FString::Format(TEXT("Input X ({2}, {3} {4}) || Select: {5}"), args);
+	FString _debug2 = FString::Format(TEXT("Input Y ({6}, {7} {8}) || Select: {9}"), args);
+
+	LOG("DEBUG -- StPlayerIdle::Move1 -- %s", *_debug1);
+	LOG("DEBUG -- StPlayerIdle::Move2 -- %s", *_debug2);
+	*/
+
+	PlayerMachine->AddMovementInput(_horizontalVector, _select.X);
+	PlayerMachine->AddMovementInput(_verticalVector, _select.Y);
 }
 
 void StPlayerIdle::Look(float _inputX, float _inputY)
