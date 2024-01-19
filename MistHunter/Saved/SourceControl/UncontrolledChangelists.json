@@ -6,7 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/Sourcetree/MistHunter/MistHunter/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/Mach_Player.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Inputs/InputMappingContext.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Levels/Testing_HLOD0_Instancing.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/__ExternalActors__/Levels/Testing/C/OK/C28578SDZ0DQU2BOKZZMHH.uasset",
@@ -139,6 +138,12 @@
 				"E:/Sourcetree/MistHunter/MistHunter/Content/__ExternalActors__/Levels/Testing/B/SN/Z4X8P1Q7VDUH9WQILGEN76.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/__ExternalActors__/Levels/Testing/A/HH/318O1U7ISADGAUOGDAZNC3.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Levels/Testing.umap",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/Mode_Default.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Mach_Player.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Data/Enum_PlayerMovementState.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/Mach_Player.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/CH_Player.uasset"
 			]
 		}

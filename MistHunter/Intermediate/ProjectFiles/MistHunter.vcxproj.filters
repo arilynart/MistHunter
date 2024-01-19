@@ -42,6 +42,15 @@
     <Filter Include="Source\MistHunter\Private">
       <UniqueIdentifier>{4493FE21-E316-3025-A51F-EEF4EDEFB599}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\MistHunter\Private\Animation">
+      <UniqueIdentifier>{0C6968F7-575B-39B9-A366-88DA21F9EEE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MistHunter\Private\Animation\Player">
+      <UniqueIdentifier>{6AD54952-4215-392B-8BFA-4077BCF2C75E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MistHunter\Private\Animation\Player\AniPlayer.cpp">
+      <Filter>Source\MistHunter\Private\Animation\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\MistHunter\Private\State">
       <UniqueIdentifier>{7566A123-E38A-3F9F-845D-D2DC9E833C4E}</UniqueIdentifier>
     </Filter>
@@ -60,6 +69,15 @@
     <Filter Include="Source\MistHunter\Public">
       <UniqueIdentifier>{17FDD4D5-BB32-3CE2-8075-79792D8CCF60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\MistHunter\Public\Animation">
+      <UniqueIdentifier>{79CBC385-7F8D-335C-AF3A-BFC4037C5EB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MistHunter\Public\Animation\Player">
+      <UniqueIdentifier>{1FF0D286-3726-32B6-BD11-51A45F54CD73}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MistHunter\Public\Animation\Player\AniPlayer.h">
+      <Filter>Source\MistHunter\Public\Animation\Player</Filter>
+    </ClInclude>
     <Filter Include="Source\MistHunter\Public\State">
       <UniqueIdentifier>{20DEEAF8-B90F-310C-BA61-7E171BD9EAAC}</UniqueIdentifier>
     </Filter>

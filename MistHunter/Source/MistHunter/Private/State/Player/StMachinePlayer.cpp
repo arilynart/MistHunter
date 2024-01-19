@@ -13,7 +13,7 @@ AStMachinePlayer::AStMachinePlayer()
 {
 	currentState = &StPlayerIdle::GetInstance();
 	movementComponent = GetComponentByClass<UCharacterMovementComponent>();
-
+	meshComponent = GetMesh();
 }
 
 AStMachinePlayer::~AStMachinePlayer()
@@ -94,6 +94,17 @@ void AStMachinePlayer::StateCheck()
 }
 
 
+
+//ANIMATION
+UCharacterMovementComponent* AStMachinePlayer::GetMovementComponent()
+{
+	return movementComponent;
+}
+
+USkeletalMeshComponent* AStMachinePlayer::GetMeshComponent()
+{
+	return meshComponent;
+}
 
 
 //MATH

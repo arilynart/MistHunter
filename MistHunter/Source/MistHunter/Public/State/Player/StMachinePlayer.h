@@ -8,6 +8,7 @@ class StPlayer;
 #include "State/Player/StPlayer.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "StMachinePlayer.generated.h"
 
 /**
@@ -43,6 +44,9 @@ public:
 	void SetWalkSpeed(float _speed);
 
 
+	//animations
+	UCharacterMovementComponent* GetMovementComponent();
+	USkeletalMeshComponent* GetMeshComponent();
 
 	//converted math functions
 	float MathAbs(float _a);
@@ -57,6 +61,7 @@ private:
 	StPlayer* currentState;
 
 	UCharacterMovementComponent* movementComponent;
+	USkeletalMeshComponent* meshComponent;
 
 	UKismetMathLibrary* lib;
 
