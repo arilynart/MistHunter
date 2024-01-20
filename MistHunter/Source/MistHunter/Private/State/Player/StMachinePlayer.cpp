@@ -88,6 +88,7 @@ void AStMachinePlayer::StateCheck()
 {
 	if (!triggeredState)
 	{
+		maxWalk = movementComponent->MaxWalkSpeed;
 		SetState(StPlayerIdle::GetInstance());
 		triggeredState = true;
 	}
@@ -96,7 +97,7 @@ void AStMachinePlayer::StateCheck()
 
 
 //ANIMATION
-UCharacterMovementComponent* AStMachinePlayer::GetMovementComponent()
+UCharacterMovementComponent* AStMachinePlayer::GetMoveComp()
 {
 	return movementComponent;
 }
@@ -137,3 +138,6 @@ FVector AStMachinePlayer::MathRightVector(FRotator _rot)
 
 	return lib->GetRightVector(_rot);
 }
+
+
+

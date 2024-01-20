@@ -41,11 +41,15 @@ public:
 	void SetState(StPlayer& _nextState);
 
 	//----
-	void SetWalkSpeed(float _speed);
+	void SetWalkSpeed(float _speed); 
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite);
+	float maxSprint;
+	float maxWalk;
 
 
 	//animations
-	UCharacterMovementComponent* GetMovementComponent();
+	UCharacterMovementComponent* GetMoveComp();
 	USkeletalMeshComponent* GetMeshComponent();
 
 	//converted math functions

@@ -193,6 +193,11 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_maxSprint_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_maxSprint;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -215,6 +220,16 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint_MetaData[] = {
+		{ "Category", "StMachinePlayer" },
+		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint = { "maxSprint", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AStMachinePlayer, maxSprint), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint_MetaData), Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint_MetaData) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStMachinePlayer_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AStMachinePlayer_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AStMachinePlayer>::IsAbstract,
 	};
@@ -224,15 +239,16 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_AStMachinePlayer_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AStMachinePlayer_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AStMachinePlayer_Statics::Class_MetaDataParams), Z_Construct_UClass_AStMachinePlayer_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AStMachinePlayer_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_AStMachinePlayer()
 	{
 		if (!Z_Registration_Info_UClass_AStMachinePlayer.OuterSingleton)
@@ -251,9 +267,9 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AStMachinePlayer, AStMachinePlayer::StaticClass, TEXT("AStMachinePlayer"), &Z_Registration_Info_UClass_AStMachinePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStMachinePlayer), 3392334983U) },
+		{ Z_Construct_UClass_AStMachinePlayer, AStMachinePlayer::StaticClass, TEXT("AStMachinePlayer"), &Z_Registration_Info_UClass_AStMachinePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStMachinePlayer), 2769998058U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_778263698(TEXT("/Script/MistHunter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_1369517366(TEXT("/Script/MistHunter"),
 		Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

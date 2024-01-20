@@ -79,12 +79,12 @@ void StPlayerIdle::Look(float _inputX, float _inputY)
 
 void StPlayerIdle::SprintStart()
 {
-	PlayerMachine->SetWalkSpeed(427.0);
+	PlayerMachine->SetWalkSpeed(PlayerMachine->maxSprint);
 }
 
 void StPlayerIdle::SprintEnd()
 {
-	PlayerMachine->SetWalkSpeed(147.0);
+	PlayerMachine->SetWalkSpeed(PlayerMachine->maxWalk);
 }
 
 //CREATION

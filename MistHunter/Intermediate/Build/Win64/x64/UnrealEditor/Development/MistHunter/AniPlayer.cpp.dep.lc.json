@@ -34,7 +34,13 @@
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
-            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\aniplayer.generated.h"
+            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\aniplayer.generated.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\public\\state\\player\\stmachineplayer.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\public\\state\\player\\stplayer.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\stmachineplayer.generated.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\misthunter.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -2,6 +2,8 @@
 
 
 #include "Animation/Player/AniPlayer.h"
+#include "State/Player/StMachinePlayer.h"
+#include "MistHunter/MistHunter.h"
 
 void UAniPlayer::SetOwner(AActor* _actor)
 {
@@ -30,9 +32,18 @@ USkeletalMeshComponent* UAniPlayer::GetMesh()
 void UAniPlayer::SetMovementData()
 {
 	velocity = ownerMovement->Velocity;
-	speed = velocity.Size();
 
 	maxSpeed = ownerMovement->GetMaxSpeed();
+	speed = velocity.Size();
+	
+
+	TArray<FStringFormatArg> args;
+	args.Add(FStringFormatArg(speed));
+	FString _debug0 = FString::Format(TEXT("SPEED: {0}"), args);
+
+
+	LOG("DEBUG -- AniPlayer::SetMovementData0 -- %s", *_debug0);
+
 
 	lastInput = lib->ClampVectorSize(ownerMovement->GetLastInputVector(), 0, 1);
 
