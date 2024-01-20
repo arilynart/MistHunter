@@ -3526,3 +3526,297 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.20-00.56.07:184][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.01.20-00.56.07:193][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
 [2024.01.20-00.56.07:249][256]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.01.20-00.57.30:696][473]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.57.30:750][475]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.57.32:221][647]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.57.32:262][650]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.57.35:906][ 71]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.57.35:969][ 76]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.57.49:803][349]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.57.49:859][353]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.01:522][725]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.01:617][736]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.22:062][180]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.22:163][186]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.24:566][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-00.58.24:609][466]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.24:616][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/ABP_Player" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset" SILENT=true
+[2024.01.20-00.58.24:673][466]LogSavePackage: Moving output files for package: /Game/Locomotion/ABP_Player
+[2024.01.20-00.58.24:673][466]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/ABP_Player9509EE71405A6E74855271A8975A21E0.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset'
+[2024.01.20-00.58.24:679][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 3.15 sec)
+[2024.01.20-00.58.24:681][466]AssetCheck: New page: Asset Save: ABP_Player
+[2024.01.20-00.58.24:681][466]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Locomotion/ABP_Player.ABP_Player
+[2024.01.20-00.58.24:700][468]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.42:152][461]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.42:199][465]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.45:762][865]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.45:806][868]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.48:391][166]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.48:434][170]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.52:991][677]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.58.53:023][679]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.09:863][594]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.09:898][596]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.14:622][137]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.14:663][139]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.18:334][556]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.18:394][561]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.32:912][250]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.32:974][253]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.34:208][396]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.34:294][404]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.49:432][874]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.49:492][877]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.50:742][ 18]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-00.59.50:801][ 23]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.04:850][647]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.04:874][648]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.09:311][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-01.00.09:357][160]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.09:363][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/ABP_Player" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset" SILENT=true
+[2024.01.20-01.00.09:422][160]LogSavePackage: Moving output files for package: /Game/Locomotion/ABP_Player
+[2024.01.20-01.00.09:423][160]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/ABP_Player44683B2C4D740B480156448CDA25EBA0.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset'
+[2024.01.20-01.00.09:429][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 3.27 sec)
+[2024.01.20-01.00.09:431][160]AssetCheck: New page: Asset Save: ABP_Player
+[2024.01.20-01.00.09:431][160]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Locomotion/ABP_Player.ABP_Player
+[2024.01.20-01.00.09:451][162]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.32:708][108]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.32:763][110]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.35:664][430]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.35:696][432]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.43:946][371]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.44:031][376]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.52:373][341]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.52:443][349]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.57:755][961]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.00.57:788][965]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.02:313][493]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.02:365][495]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.10:349][433]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.10:371][434]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.12:304][656]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.12:393][662]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.16:239][111]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.16:315][118]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.36:796][479]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.36:851][481]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.39:330][753]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.39:422][762]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.47:272][648]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.47:337][651]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.48:530][780]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.01.48:588][785]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.04:569][664]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.04:627][668]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.05:902][798]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.05:996][806]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.09:850][230]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.09:883][232]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.11:867][448]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.11:924][452]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.18:414][197]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.18:486][205]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.22:688][692]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.22:698][693]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.34:288][996]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.34:311][997]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.40:955][748]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.41:041][755]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.42:937][961]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.43:010][968]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.51:570][416]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.51:594][417]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.56:929][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-01.02.56:985][ 38]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.02.56:992][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/ABP_Player" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset" SILENT=true
+[2024.01.20-01.02.57:053][ 38]LogSavePackage: Moving output files for package: /Game/Locomotion/ABP_Player
+[2024.01.20-01.02.57:053][ 38]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/ABP_PlayerC6509EB345CA2D9749791C97DCF1CE2C.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset'
+[2024.01.20-01.02.57:059][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 3.40 sec)
+[2024.01.20-01.02.57:063][ 38]AssetCheck: New page: Asset Save: ABP_Player
+[2024.01.20-01.02.57:063][ 38]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Locomotion/ABP_Player.ABP_Player
+[2024.01.20-01.02.57:082][ 40]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.02:074][622]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.02:180][632]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.07:855][281]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.07:885][284]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.23:303][ 62]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.23:388][ 72]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.43:583][413]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.43:674][421]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.49:290][ 49]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.49:365][ 54]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.51:220][268]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.51:289][273]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.53:736][542]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.53:826][551]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.55:618][759]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-01.03.55:666][759]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.03.55:673][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/ABP_Player" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset" SILENT=true
+[2024.01.20-01.03.55:735][759]LogSavePackage: Moving output files for package: /Game/Locomotion/ABP_Player
+[2024.01.20-01.03.55:735][759]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/ABP_Player559350EB4D955133149F3FB1D8E9075F.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset'
+[2024.01.20-01.03.55:741][759]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 3.52 sec)
+[2024.01.20-01.03.55:745][759]AssetCheck: New page: Asset Save: ABP_Player
+[2024.01.20-01.03.55:745][759]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Locomotion/ABP_Player.ABP_Player
+[2024.01.20-01.03.55:763][761]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.01:866][461]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.01:936][469]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.03:102][597]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.03:167][604]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.04:610][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-01.04.04:666][767]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.04:673][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Locomotion/ABP_Player" FILE="../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset" SILENT=true
+[2024.01.20-01.04.04:734][767]LogSavePackage: Moving output files for package: /Game/Locomotion/ABP_Player
+[2024.01.20-01.04.04:735][767]LogSavePackage: Moving '../../../../../../Sourcetree/MistHunter/MistHunter/Saved/ABP_Player1D7381C1410C7DC20C0800819C8ACDB6.tmp' to '../../../../../../Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset'
+[2024.01.20-01.04.04:741][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 3.65 sec)
+[2024.01.20-01.04.04:744][767]AssetCheck: New page: Asset Save: ABP_Player
+[2024.01.20-01.04.04:744][767]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Locomotion/ABP_Player.ABP_Player
+[2024.01.20-01.04.04:767][769]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.26:827][214]BlueprintLog: New page: Compile ABP_Player
+[2024.01.20-01.04.26:844][214]LogBlueprint: Warning: [AssetLog] E:\Sourcetree\MistHunter\MistHunter\Content\Locomotion\ABP_Player.uasset: [Compiler] Entry to Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.01.20-01.04.26:891][214]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.26:926][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.01.20-01.04.26:943][214]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.04.26:984][216]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.05.29:681][ 47]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.20-01.05.29:685][ 47]LogContentBundle: [Testing(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.20-01.05.29:685][ 47]LogWorldPartition: Display: GenerateStreaming for 'Testing' started...
+[2024.01.20-01.05.29:757][ 47]LogWorldPartition: Display: GenerateStreaming for 'Testing' took 71 ms (total: 989 ms)
+[2024.01.20-01.05.29:757][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.20-01.05.29:757][ 47]PIE: New page: PIE session: Testing (Jan 19, 2024, 11:05:29 AM)
+[2024.01.20-01.05.29:757][ 47]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing
+[2024.01.20-01.05.29:765][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007492s)
+[2024.01.20-01.05.29:765][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing.Testing to /Game/Levels/UEDPIE_0_Testing.Testing (0.007519s)
+[2024.01.20-01.05.29:774][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.01.20-01.05.29:779][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.20-01.05.29:779][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.20-01.05.29:779][ 47]LogAIModule: Creating AISystem for world Testing
+[2024.01.20-01.05.29:780][ 47]LogWorldPartition: ULevel::OnLevelLoaded(Testing)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.20-01.05.29:780][ 47]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.20-01.05.29:780][ 47]LogWorldPartition: UWorldPartition::Initialize : World = Testing, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.20-01.05.29:780][ 47]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.20-01.05.29:782][ 47]LogContentBundle: [Testing(Standalone)] Creating new contrainer.
+[2024.01.20-01.05.29:782][ 47]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 602 ms)
+[2024.01.20-01.05.29:782][ 47]LogPlayLevel: PIE: World Init took: (0.003015s)
+[2024.01.20-01.05.29:782][ 47]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.01.20-01.05.29:782][ 47]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.20-01.05.29:782][ 47]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.20-01.05.29:782][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.20-01.05.29:782][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.20-01.05.29:782][ 47]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.20-01.05.29:782][ 47]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.20-01.05.29:782][ 47]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.20-01.05.29:782][ 47]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.20-01.05.29:782][ 47]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.20-01.05.29:782][ 47]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.20-01.05.29:782][ 47]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.20-01.05.29:784][ 47]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.20-01.05.29:799][ 47]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.01.20-01.05.29:799][ 47]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.20-01.05.29:800][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.20-01.05.29:800][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.20-01.05.29:800][ 47]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.01.20-01.05.29:800][ 47]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.01.20-01.05.29:801][ 47]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.01.20-01.05.29:801][ 47]LogInit: FAudioDevice initialized with ID 12.
+[2024.01.20-01.05.29:801][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.01.20-01.05.29:801][ 47]LogAudio: Display: Audio Device (ID: 12) registered with world 'Testing'.
+[2024.01.20-01.05.29:802][ 47]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.20-01.05.29:804][ 47]LogLoad: Game class is 'Mode_Default_C'
+[2024.01.20-01.05.29:804][ 47]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2024.01.19-18.05.29
+[2024.01.20-01.05.29:804][ 47]LogWorld: Bringing up level for play took: 0.000544
+[2024.01.20-01.05.29:806][ 47]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.01.20-01.05.29:807][ 47]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.01.20-01.05.29:807][ 47]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.01.20-01.05.29:809][ 47]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/E/VH/ZEQ4CF7LOXA4U315SOWORA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/E/UC/32SLYAOINEQAB4D4DRVGXQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/E/63/JNBRR2K2L434TCBK6ERC8F.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/D/0K/0820XCBE4PNQ4BQ79U6FJV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/C/WY/RWO4PDH4FLTGX4QDYYAYH0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/C/80/65NLF2COHVJ9KKMT4QDPB2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/C/67/HZ646TG7W8FMI30PR857YK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/B/SN/Z4X8P1Q7VDUH9WQILGEN76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/B/HU/HPYDSRI3P1M2YT7EDZX7UW.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/B/HU/HPYDSRI3P1M2YT7EDZX7UW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/B/7H/YWXM22HQL3NGFK48INELTP.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/B/7H/YWXM22HQL3NGFK48INELTP.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/B/7H/YWXM22HQL3NGFK48INELTP.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/B/7H/YWXM22HQL3NGFK48INELTP.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/A/HH/318O1U7ISADGAUOGDAZNC3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/9/W7/UN2KRH4C2Q6BW6BMQO0W3R.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/9/QZ/64Y0156EA9UA26V87IQP59.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/9/DV/5FDHP7PX7E01DB3XE7YEVV.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/9/DV/5FDHP7PX7E01DB3XE7YEVV.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/9/DV/OXOW8P4QW1C74L0A1OCKZY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/9/4N/87PF96VI8KRQYVABLJWAI6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/XQ/7S1I7EF99BBU8L7JMJGBKD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/SR/Z95JYHU8HFD7O59F4IGDWJ.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/SR/Z95JYHU8HFD7O59F4IGDWJ.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/NE/TY5WRXACTR5AMKRTZ8P3QC.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/NE/TY5WRXACTR5AMKRTZ8P3QC.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/H5/KNQPYY3EYRLAYIQ4YBH7U3.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/H5/KNQPYY3EYRLAYIQ4YBH7U3.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/8/7H/6KP1DTH3MJJAP1UEY3MKHC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/7/QK/N2XOSKH8XOGKUY8J1TNU1F.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/7/OK/3UUASNM3CUABJ7CUGHXETT.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/7/OK/3UUASNM3CUABJ7CUGHXETT.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/7/D3/1YRYRD51PJFHN03GNAMN2T.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/6/0S/UFEQUV4GHWI2XVR1FLUCNU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/5/W9/AVJBR18EZUENXTO8PXS3E0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/5/RC/EVYPCF0J818Q54IRZP4IK0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/5/QY/IKT162HQQX1J2FOBPR0PPV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:954][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/5/K1/VXDDD4HNJ846B0I2INGA8F.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/5/79/OINJXGO7M6BW7TF5L6GHL2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/5/63/DSKW15WZRLZKZSVSVSWBCS.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/5/63/DSKW15WZRLZKZSVSVSWBCS.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/4/26/S3AZJQ7IJN7UOEZXPOAS2B.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/4/26/S3AZJQ7IJN7UOEZXPOAS2B.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/4/0I/481CGPWXN89G45NVJ3FZMZ.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/4/0I/481CGPWXN89G45NVJ3FZMZ.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/3/ZG/ZKUH5UFKRTI3OVJG0H98HQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/3/U4/Y9CXVFV6O7KTQIYKVG76N3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/3/MF/IXFS29ZYIAN5E8IXSX2DLM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/3/72/LN4KPD7QYBKH5MZURT9CE6.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/3/72/LN4KPD7QYBKH5MZURT9CE6.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/3/14/8NSVPKRLYH9HW1T03IHH8I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/2/AC/L8S2MQIKWQVZY3JRZFWBAW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/2/7R/FPWHFZIFHSO3HJ5PIEA74G.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/2/4J/4DHCVIPPGH8ZV4N455FL8K.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/1/B6/D29Z8LUZL3BHOGE55O4QTH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/UB/N1VN7LRKRLFR54ZE91YMGQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/R9/SUAI3WXQ0A45HJG8GD7NOG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/HB/CQUOVMSP0ZI7PNFMMR2PIW.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/HB/CQUOVMSP0ZI7PNFMMR2PIW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/CD/A9C4V100MHUXS3XE08OES6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/BY/113K5UTKUJKZGOTA1URG8G.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/3W/EB9CHMAQW0GY67SD4PEP7N.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/3W/EB9CHMAQW0GY67SD4PEP7N.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.01.20-01.05.29:955][ 47]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/Testing/0/34/U22L5FITVN1CVN39ZMDM90.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.01.20-01.05.29:981][ 47]PIE: Server logged in
+[2024.01.20-01.05.29:982][ 47]PIE: Play in editor total start time 0.296 seconds.
+[2024.01.20-01.05.30:089][ 49]LogShaderCompilers: Display: ================================================
+[2024.01.20-01.05.30:089][ 49]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.20-01.05.30:089][ 49]LogShaderCompilers: Display: Total job queries 159, among them cache hits 101 (63.52%)
+[2024.01.20-01.05.30:089][ 49]LogShaderCompilers: Display: Tracking 58 distinct input hashes that result in 42 distinct outputs (72.41%)
+[2024.01.20-01.05.30:090][ 49]LogShaderCompilers: Display: RAM used: 1.26 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.01.20-01.05.30:090][ 49]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.20-01.05.30:090][ 49]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.20-01.05.30:090][ 49]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.20-01.05.30:090][ 49]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.20-01.05.30:090][ 49]LogShaderCompilers: Display: ================================================
+[2024.01.20-01.05.30:176][ 51]LogBlueprintUserMessages: DEBUG -- ABP_Player::SetReferences0 -- WARNING: CAST FAILED
+[2024.01.20-01.05.38:819][990]LogAnimation: Warning: FCachedAnimStateData::GetWeight StateName Jog not found in StateMachineName Movement in AnimBP: ABP_Player_C_0. Renamed or deleted?
+[2024.01.20-01.05.54:297][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-01.05.54:297][562]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing
+[2024.01.20-01.05.54:305][562]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2024.01.20-01.05.54:305][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-01.05.54:305][562]LogContentBundle: [Testing(Standalone)] Deleting container.
+[2024.01.20-01.05.54:308][562]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.20-01.05.54:312][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-01.05.54:329][562]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.20-01.05.54:331][562]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.20-01.05.54:331][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.20-01.05.54:333][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.20-01.05.54:336][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-01.05.54:347][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.01.20-01.05.54:365][563]LogPlayLevel: Display: Destroying online subsystem :Context_32
