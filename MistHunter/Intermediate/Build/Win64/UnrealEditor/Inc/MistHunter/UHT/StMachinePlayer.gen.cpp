@@ -37,6 +37,13 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		P_THIS->StateLook(Z_Param__inputX,Z_Param__inputY);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AStMachinePlayer::execStateMoveEnd)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->StateMoveEnd();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AStMachinePlayer::execStateMove)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param__inputX);
@@ -46,16 +53,101 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		P_THIS->StateMove(Z_Param__inputX,Z_Param__inputY);
 		P_NATIVE_END;
 	}
+	static FName NAME_AStMachinePlayer_SetAnimStateIdle = FName(TEXT("SetAnimStateIdle"));
+	void AStMachinePlayer::SetAnimStateIdle()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AStMachinePlayer_SetAnimStateIdle),NULL);
+	}
+	static FName NAME_AStMachinePlayer_SetAnimStateJog = FName(TEXT("SetAnimStateJog"));
+	void AStMachinePlayer::SetAnimStateJog()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AStMachinePlayer_SetAnimStateJog),NULL);
+	}
+	static FName NAME_AStMachinePlayer_SetAnimStateWalk = FName(TEXT("SetAnimStateWalk"));
+	void AStMachinePlayer::SetAnimStateWalk()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AStMachinePlayer_SetAnimStateWalk),NULL);
+	}
 	void AStMachinePlayer::StaticRegisterNativesAStMachinePlayer()
 	{
 		UClass* Class = AStMachinePlayer::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "StateLook", &AStMachinePlayer::execStateLook },
 			{ "StateMove", &AStMachinePlayer::execStateMove },
+			{ "StateMoveEnd", &AStMachinePlayer::execStateMoveEnd },
 			{ "StateSprintEnd", &AStMachinePlayer::execStateSprintEnd },
 			{ "StateSprintStart", &AStMachinePlayer::execStateSprintStart },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle_Statics::Function_MetaDataParams[] = {
+		{ "DisplayName", "Player Animation Idle" },
+		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStMachinePlayer, nullptr, "SetAnimStateIdle", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle_Statics::Function_MetaDataParams), Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog_Statics::Function_MetaDataParams[] = {
+		{ "DisplayName", "Player Animation Jog" },
+		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStMachinePlayer, nullptr, "SetAnimStateJog", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog_Statics::Function_MetaDataParams), Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk_Statics::Function_MetaDataParams[] = {
+		{ "DisplayName", "Player Animation Walk" },
+		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStMachinePlayer, nullptr, "SetAnimStateWalk", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk_Statics::Function_MetaDataParams), Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AStMachinePlayer_StateLook_Statics
 	{
@@ -120,7 +212,13 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::Function_MetaDataParams[] = {
 		{ "Category", "State Machine" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//STATES\n" },
+#endif
 		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "STATES" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStMachinePlayer, nullptr, "StateMove", nullptr, nullptr, Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::PropPointers), sizeof(Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::StMachinePlayer_eventStateMove_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::Function_MetaDataParams), Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::Function_MetaDataParams) };
@@ -132,6 +230,29 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStMachinePlayer_StateMove_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd_Statics::Function_MetaDataParams[] = {
+		{ "Category", "State Machine" },
+		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStMachinePlayer, nullptr, "StateMoveEnd", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd_Statics::Function_MetaDataParams), Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -207,8 +328,12 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AStMachinePlayer_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_AStMachinePlayer_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle, "SetAnimStateIdle" }, // 297305537
+		{ &Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog, "SetAnimStateJog" }, // 1595448434
+		{ &Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk, "SetAnimStateWalk" }, // 1001782769
 		{ &Z_Construct_UFunction_AStMachinePlayer_StateLook, "StateLook" }, // 1214484847
-		{ &Z_Construct_UFunction_AStMachinePlayer_StateMove, "StateMove" }, // 3837820440
+		{ &Z_Construct_UFunction_AStMachinePlayer_StateMove, "StateMove" }, // 254835520
+		{ &Z_Construct_UFunction_AStMachinePlayer_StateMoveEnd, "StateMoveEnd" }, // 3967951328
 		{ &Z_Construct_UFunction_AStMachinePlayer_StateSprintEnd, "StateSprintEnd" }, // 3019584186
 		{ &Z_Construct_UFunction_AStMachinePlayer_StateSprintStart, "StateSprintStart" }, // 2540693108
 	};
@@ -267,9 +392,9 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AStMachinePlayer, AStMachinePlayer::StaticClass, TEXT("AStMachinePlayer"), &Z_Registration_Info_UClass_AStMachinePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStMachinePlayer), 2769998058U) },
+		{ Z_Construct_UClass_AStMachinePlayer, AStMachinePlayer::StaticClass, TEXT("AStMachinePlayer"), &Z_Registration_Info_UClass_AStMachinePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStMachinePlayer), 4163669552U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_1369517366(TEXT("/Script/MistHunter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_1815394153(TEXT("/Script/MistHunter"),
 		Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

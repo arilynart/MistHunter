@@ -11,7 +11,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 // Cross Module References
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UCharacterMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
@@ -54,12 +54,12 @@ void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(AActor**)Z_Param__Result=P_THIS->GetOwner();
+		*(APawn**)Z_Param__Result=P_THIS->GetOwner();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UAniPlayer::execSetOwner)
 	{
-		P_GET_OBJECT(AActor,Z_Param__actor);
+		P_GET_OBJECT(APawn,Z_Param__actor);
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->SetOwner(Z_Param__actor);
@@ -168,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 	{
 		struct AniPlayer_eventGetOwner_Parms
 		{
-			AActor* ReturnValue;
+			APawn* ReturnValue;
 		};
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -177,7 +177,7 @@ void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAniPlayer_GetOwner_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AniPlayer_eventGetOwner_Parms, ReturnValue), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAniPlayer_GetOwner_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AniPlayer_eventGetOwner_Parms, ReturnValue), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAniPlayer_GetOwner_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAniPlayer_GetOwner_Statics::NewProp_ReturnValue,
 	};
@@ -278,7 +278,7 @@ void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 	{
 		struct AniPlayer_eventSetOwner_Parms
 		{
-			AActor* _actor;
+			APawn* _actor;
 		};
 		static const UECodeGen_Private::FObjectPropertyParams NewProp__actor;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -287,7 +287,7 @@ void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAniPlayer_SetOwner_Statics::NewProp__actor = { "_actor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AniPlayer_eventSetOwner_Parms, _actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAniPlayer_SetOwner_Statics::NewProp__actor = { "_actor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AniPlayer_eventSetOwner_Parms, _actor), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAniPlayer_SetOwner_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAniPlayer_SetOwner_Statics::NewProp__actor,
 	};
@@ -354,10 +354,10 @@ void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAniPlayer_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UAniPlayer_GetMesh, "GetMesh" }, // 1106414468
 		{ &Z_Construct_UFunction_UAniPlayer_GetMovement, "GetMovement" }, // 1346427776
-		{ &Z_Construct_UFunction_UAniPlayer_GetOwner, "GetOwner" }, // 2631609982
+		{ &Z_Construct_UFunction_UAniPlayer_GetOwner, "GetOwner" }, // 2376126361
 		{ &Z_Construct_UFunction_UAniPlayer_MovementThreshold, "MovementThreshold" }, // 579267196
 		{ &Z_Construct_UFunction_UAniPlayer_SetMovementData, "SetMovementData" }, // 3146855374
-		{ &Z_Construct_UFunction_UAniPlayer_SetOwner, "SetOwner" }, // 3312249194
+		{ &Z_Construct_UFunction_UAniPlayer_SetOwner, "SetOwner" }, // 3419849679
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAniPlayer_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -458,9 +458,9 @@ void EmptyLinkFunctionForGeneratedCodeAniPlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_Animation_Player_AniPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UAniPlayer, UAniPlayer::StaticClass, TEXT("UAniPlayer"), &Z_Registration_Info_UClass_UAniPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAniPlayer), 2729284986U) },
+		{ Z_Construct_UClass_UAniPlayer, UAniPlayer::StaticClass, TEXT("UAniPlayer"), &Z_Registration_Info_UClass_UAniPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAniPlayer), 4033535209U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_Animation_Player_AniPlayer_h_4216150834(TEXT("/Script/MistHunter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_Animation_Player_AniPlayer_h_2693781942(TEXT("/Script/MistHunter"),
 		Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_Animation_Player_AniPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_Animation_Player_AniPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

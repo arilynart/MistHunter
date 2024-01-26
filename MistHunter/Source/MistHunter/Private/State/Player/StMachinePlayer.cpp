@@ -6,6 +6,7 @@
 #include "State/Player/StPlayerIdle.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "State/Player/StMachinePlayer.h"
+#include "MistHunter/MistHunter.h"
 
 
 // Sets default values
@@ -14,6 +15,7 @@ AStMachinePlayer::AStMachinePlayer()
 	currentState = &StPlayerIdle::GetInstance();
 	movementComponent = GetComponentByClass<UCharacterMovementComponent>();
 	meshComponent = GetMesh();
+	aniPlayer = dynamic_cast<UAniPlayer*>(meshComponent->GetAnimInstance());
 }
 
 AStMachinePlayer::~AStMachinePlayer()
@@ -25,8 +27,6 @@ AStMachinePlayer::~AStMachinePlayer()
 void AStMachinePlayer::BeginPlay()
 {
 	Super::BeginPlay();
-
-
 }
 
 // Called every frame
@@ -34,6 +34,7 @@ void AStMachinePlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (currentState) currentState->Tick(DeltaTime);
 }
 
 // Called to bind functionality to input
@@ -59,6 +60,11 @@ void AStMachinePlayer::StateMove(float _inputX, float _inputY)
 {
 	StateCheck();
 	currentState->Move(_inputX, _inputY);
+}
+
+void AStMachinePlayer::StateMoveEnd()
+{
+	currentState->MoveEnd();
 }
 
 void AStMachinePlayer::StateLook(float _inputX, float _inputY)
@@ -107,6 +113,11 @@ USkeletalMeshComponent* AStMachinePlayer::GetMeshComponent()
 	return meshComponent;
 }
 
+UAniPlayer* AStMachinePlayer::GetAniPlayer()
+{
+	return aniPlayer;
+}
+
 
 //MATH
 float AStMachinePlayer::MathAbs(float _a)
@@ -135,8 +146,12 @@ FVector AStMachinePlayer::MathForwardVector(FRotator _rot)
 
 FVector AStMachinePlayer::MathRightVector(FRotator _rot)
 {
-
 	return lib->GetRightVector(_rot);
+}
+
+FRotator AStMachinePlayer::MathRotFromX(FVector _vec)
+{
+	return lib->MakeRotFromX(_vec);
 }
 
 

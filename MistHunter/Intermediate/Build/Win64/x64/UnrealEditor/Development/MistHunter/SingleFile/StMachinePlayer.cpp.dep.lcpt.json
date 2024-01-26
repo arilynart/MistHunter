@@ -965,10 +965,19 @@
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\animation\\attributescontainer.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\posewatchrenderdata.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\skeletalmeshcomponent.generated.h",
-            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\stmachineplayer.generated.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\source\\misthunter\\public\\animation\\player\\aniplayer.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\animation\\animinstance.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\public\\animation\\animsubsysteminstance.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animsubsysteminstance.generated.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\public\\animation\\animsync.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\animation\\animnotifies\\animnotify.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animnotify.generated.h",
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animinstance.generated.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
             "e:\\shit game\\fortnite\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
-            "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl"
+            "e:\\shit game\\fortnite\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\aniplayer.generated.h",
+            "e:\\sourcetree\\misthunter\\misthunter\\intermediate\\build\\win64\\unrealeditor\\inc\\misthunter\\uht\\stmachineplayer.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

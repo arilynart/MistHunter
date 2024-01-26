@@ -20,11 +20,17 @@ public:
 	void Enter(AStMachinePlayer* _machine) override;
 	void Exit(AStMachinePlayer* _machine) override;
 	void Move(float _inputX, float _inputY) override;
+	void MoveEnd() override;
 	void Look(float _inputX, float _inputY) override;
 	void SprintStart() override;
 	void SprintEnd() override;
 
+	void Tick(float _deltaTime) override;
+	bool movementEndSwitch;
+
 	static StPlayer& GetInstance();
+
+	FRotator targetMoveRotation;
 
 	~StPlayerIdle();
 

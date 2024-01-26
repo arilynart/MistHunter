@@ -2,10 +2,9 @@
 
 
 #include "Animation/Player/AniPlayer.h"
-#include "State/Player/StMachinePlayer.h"
 #include "MistHunter/MistHunter.h"
 
-void UAniPlayer::SetOwner(AActor* _actor)
+void UAniPlayer::SetOwner(APawn* _actor)
 {
 	owner = _actor;
 
@@ -14,7 +13,7 @@ void UAniPlayer::SetOwner(AActor* _actor)
 }
 
 
-AActor* UAniPlayer::GetOwner()
+APawn* UAniPlayer::GetOwner()
 {
 	return owner;
 }
@@ -37,16 +36,15 @@ void UAniPlayer::SetMovementData()
 	speed = velocity.Size();
 	
 
-	TArray<FStringFormatArg> args;
-	args.Add(FStringFormatArg(speed));
-	FString _debug0 = FString::Format(TEXT("SPEED: {0}"), args);
+	//TArray<FStringFormatArg> args;
+	//args.Add(FStringFormatArg(speed));
+	//FString _debug0 = FString::Format(TEXT("SPEED: {0}"), args);
 
 
-	LOG("DEBUG -- AniPlayer::SetMovementData0 -- %s", *_debug0);
+	//LOG("DEBUG -- AniPlayer::SetMovementData0 -- %s", *_debug0);
 
 
 	lastInput = lib->ClampVectorSize(ownerMovement->GetLastInputVector(), 0, 1);
-
 }
 
 bool UAniPlayer::MovementThreshold(float _minCurrentSpeed, float _minMaxSpeed, float _minInputAcceleration)
@@ -54,3 +52,16 @@ bool UAniPlayer::MovementThreshold(float _minCurrentSpeed, float _minMaxSpeed, f
 	return (_minCurrentSpeed <= speed) && (_minMaxSpeed <= maxSpeed) && (_minInputAcceleration <= lastInput.Size());
 }
 
+//
+//void UAniPlayer::SetStateIdle()
+//{
+//
+//}
+//void UAniPlayer::SetStateWalk()
+//{
+//
+//}
+//void UAniPlayer::SetStateJog()
+//{
+//
+//}

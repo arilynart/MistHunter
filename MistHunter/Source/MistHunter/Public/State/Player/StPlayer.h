@@ -19,10 +19,13 @@ public:
 	virtual void Exit(AStMachinePlayer* _machine) = 0;
 
 	//controls
-	virtual void Move(float _inputX, float _inputY) = 0; //LS
+	virtual void Move(float _inputX, float _inputY) = 0; //LS active
+	virtual void MoveEnd() = 0; //LS end
 	virtual void Look(float _inputX, float _inputY) = 0; //RS
 	virtual void SprintStart() = 0; //R1 start
 	virtual void SprintEnd() = 0; //R1 end
+
+	virtual void Tick(float _deltaTime) = 0;
 	
 	virtual ~StPlayer();
 };

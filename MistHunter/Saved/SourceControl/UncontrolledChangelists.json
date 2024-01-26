@@ -141,7 +141,6 @@
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/Mode_Default.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Mach_Player.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/ABP_Player.uasset",
-				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Data/Enum_PlayerMovementState.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_To_Jog_Fwd.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Left_90.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Jog_Fwd_Left_180.uasset",
@@ -154,6 +153,15 @@
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Idle_to_Walk_Fwd_Right_180.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Jog_Fwd.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Animations/Walk_Fwd.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Inputs/IA_MoveRight.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Inputs/IA_MoveRightTap.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Inputs/IA_MoveForwardTap.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Data/PlayerAnimationStates.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Data/Enum_PlayerAnimationStates.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Data/Enum.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Data/Enum_AnimationStates_Player.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/ENUM_PlayerAnimationState.uasset",
+				"E:/Sourcetree/MistHunter/MistHunter/Content/Locomotion/Data/Enum_PlayerMovementState.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/Mach_Player.uasset",
 				"E:/Sourcetree/MistHunter/MistHunter/Content/Blueprints/CH_Player.uasset"
 			]

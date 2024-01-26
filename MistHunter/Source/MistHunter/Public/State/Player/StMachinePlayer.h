@@ -9,8 +9,8 @@ class StPlayer;
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Animation/Player/AniPlayer.h"
 #include "StMachinePlayer.generated.h"
-
 /**
  *
  */
@@ -26,8 +26,13 @@ public:
 	// Sets default values for this character's properties
 	AStMachinePlayer();
 
+
+	//STATES
 	UFUNCTION(BlueprintCallable, Category = "State Machine")
 	void StateMove(float _inputX, float _inputY);
+
+	UFUNCTION(BlueprintCallable, Category = "State Machine")
+	void StateMoveEnd();
 
 	UFUNCTION(BlueprintCallable, Category = "State Machine")
 	void StateLook(float _inputX, float _inputY);
@@ -46,11 +51,19 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite);
 	float maxSprint;
 	float maxWalk;
-
+	
 
 	//animations
 	UCharacterMovementComponent* GetMoveComp();
 	USkeletalMeshComponent* GetMeshComponent();
+	UAniPlayer* GetAniPlayer();
+
+	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "Player Animation Idle"))
+	void SetAnimStateIdle();
+	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "Player Animation Walk"))
+	void SetAnimStateWalk();
+	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "Player Animation Jog"))
+	void SetAnimStateJog();
 
 	//converted math functions
 	float MathAbs(float _a);
@@ -58,6 +71,7 @@ public:
 	FVector MathSelectVector(FVector _a, FVector _b, bool _select);
 	FVector MathForwardVector(FRotator _rot);
 	FVector MathRightVector(FRotator _rot);
+	FRotator MathRotFromX(FVector _vec);
 
 	~AStMachinePlayer();
 
@@ -66,6 +80,7 @@ private:
 
 	UCharacterMovementComponent* movementComponent;
 	USkeletalMeshComponent* meshComponent;
+	UAniPlayer* aniPlayer;
 
 	UKismetMathLibrary* lib;
 

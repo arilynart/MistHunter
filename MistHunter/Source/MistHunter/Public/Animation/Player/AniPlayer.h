@@ -8,6 +8,7 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "AniPlayer.generated.h"
 
+
 /**
  * 
  */
@@ -20,10 +21,10 @@ class MISTHUNTER_API UAniPlayer : public UAnimInstance
 public:
 
 	UFUNCTION(BlueprintCallable, Category = "Animation")
-	void SetOwner(AActor* _actor);
+	void SetOwner(APawn* _actor);
 
 	UFUNCTION(BlueprintCallable, Category = "Animation")
-	AActor* GetOwner();
+	APawn* GetOwner();
 
 	UFUNCTION(BlueprintCallable, Category = "Animation")
 	UCharacterMovementComponent* GetMovement();
@@ -36,6 +37,11 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Animation")
 	bool MovementThreshold(float _minCurrentSpeed, float _minMaxSpeed, float _minInputAcceleration);
+
+	//STATES
+	//void SetStateIdle();
+	//void SetStateWalk();
+	//void SetStateJog();
 
 	//---
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly);
@@ -50,7 +56,7 @@ public:
 	bool falling;
 
 private:
-	AActor* owner;
+	APawn* owner;
 	UCharacterMovementComponent* ownerMovement;
 	USkeletalMeshComponent* ownerMesh;
 

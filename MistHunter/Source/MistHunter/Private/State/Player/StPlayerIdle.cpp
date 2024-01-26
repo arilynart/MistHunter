@@ -5,14 +5,18 @@
 #include "MistHunter/MistHunter.h"
 #include "State/Player/StPlayerIdle.h"
 #include "State/Player/StMachinePlayer.h"
+#include "Animation/Player/AniPlayer.h"
 
 
 StPlayerIdle::StPlayerIdle()
 {
+	movementEndSwitch = false;
+	targetMoveRotation = { 0, 0, 0 };
 }
 
 StPlayerIdle::~StPlayerIdle()
 {
+
 }
 
 
@@ -20,6 +24,9 @@ StPlayerIdle::~StPlayerIdle()
 void StPlayerIdle::Enter(AStMachinePlayer* _machine)
 {
 	PlayerMachine = _machine;
+
+	PlayerMachine->SetAnimStateIdle();
+	
 }
 
 void StPlayerIdle::Exit(AStMachinePlayer* _machine)
@@ -27,19 +34,25 @@ void StPlayerIdle::Exit(AStMachinePlayer* _machine)
 
 }
 
+void StPlayerIdle::Tick(float _deltaTime)
+{
+	if (movementEndSwitch && PlayerMachine)
+	{
+		FRotator _current = PlayerMachine->GetActorRotation();
+
+		if (_current.Yaw == targetMoveRotation.Yaw)
+		{
+			PlayerMachine->SetAnimStateIdle();
+			movementEndSwitch = false;
+		}
+	}
+
+}
+
 
 //CONTROL DEFINITIONS
 void StPlayerIdle::Move(float _inputX, float _inputY)
 {
-	/*
-	TArray< FStringFormatArg > args;
-	args.Add(FStringFormatArg(_inputX));
-	args.Add(FStringFormatArg(_inputY));
-	FString _debug0 = FString::Format(TEXT("Movement X = {0} Y = {1}"), args);
-
-
-	LOG("DEBUG -- StPlayerIdle::Move0 -- %s", *_debug0);
-	*/
 
 	FVector _inputSpeed = { _inputX, _inputY, 0 };
 	FVector _clamp = PlayerMachine->MathClamp(_inputSpeed, 0.207, 0.332);
@@ -51,24 +64,33 @@ void StPlayerIdle::Move(float _inputX, float _inputY)
 	FVector _horizontalVector = PlayerMachine->MathRightVector(_rot);
 	FVector _verticalVector = PlayerMachine->MathForwardVector(_rot);
 
-	/*
-	args.Add(FStringFormatArg(_horizontalVector.X));
-	args.Add(FStringFormatArg(_horizontalVector.Y));
-	args.Add(FStringFormatArg(_horizontalVector.Z));
-	args.Add(FStringFormatArg(_select.X));
-	args.Add(FStringFormatArg(_verticalVector.X));
-	args.Add(FStringFormatArg(_verticalVector.Y));
-	args.Add(FStringFormatArg(_verticalVector.Z));
-	args.Add(FStringFormatArg(_select.Y));
-	FString _debug1 = FString::Format(TEXT("Input X ({2}, {3} {4}) || Select: {5}"), args);
-	FString _debug2 = FString::Format(TEXT("Input Y ({6}, {7} {8}) || Select: {9}"), args);
+	FVector _lastVector = PlayerMachine->MathClamp(PlayerMachine->GetMoveComp()->GetLastInputVector(), 0, 1);
+	targetMoveRotation = PlayerMachine->MathRotFromX(_lastVector);
+	
+	TArray<FStringFormatArg> args;
+	args.Add(FStringFormatArg(targetMoveRotation.Pitch));
+	args.Add(FStringFormatArg(targetMoveRotation.Roll));
+	args.Add(FStringFormatArg(targetMoveRotation.Yaw));
+	FString _debug1 = FString::Format(TEXT("InputV: ({0}, {1}, {2})"), args);
 
-	LOG("DEBUG -- StPlayerIdle::Move1 -- %s", *_debug1);
-	LOG("DEBUG -- StPlayerIdle::Move2 -- %s", *_debug2);
-	*/
+	LOG("DEBUG -- StPlayerIdle::Move0 -- %s", *_debug1);
 
 	PlayerMachine->AddMovementInput(_horizontalVector, _select.X);
 	PlayerMachine->AddMovementInput(_verticalVector, _select.Y);
+
+	if (PlayerMachine->GetVelocity().Size() > 300)
+	{
+		PlayerMachine->SetAnimStateJog();
+	}
+	else
+	{
+		PlayerMachine->SetAnimStateWalk();
+	}
+}
+
+void StPlayerIdle::MoveEnd()
+{
+	movementEndSwitch = true;
 }
 
 void StPlayerIdle::Look(float _inputX, float _inputY)
