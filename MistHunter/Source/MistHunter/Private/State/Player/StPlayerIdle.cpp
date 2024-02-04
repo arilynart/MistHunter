@@ -54,6 +54,7 @@ void StPlayerIdle::Tick(float _deltaTime)
 	{
 		FRotator _current = PlayerMachine->GetActorRotation();
 		//DEBUG
+
 		//TArray<FStringFormatArg> args;
 		//args.Add(FStringFormatArg(PlayerMachine->targetMoveRotation.Pitch));
 		//args.Add(FStringFormatArg(PlayerMachine->targetMoveRotation.Roll));
