@@ -16,6 +16,7 @@ AStMachinePlayer::AStMachinePlayer()
 	movementComponent = GetComponentByClass<UCharacterMovementComponent>();
 	meshComponent = GetMesh();
 	aniPlayer = dynamic_cast<UAniPlayer*>(meshComponent->GetAnimInstance());
+	targetMoveRotation = { 0, 0, 0 };
 }
 
 AStMachinePlayer::~AStMachinePlayer()

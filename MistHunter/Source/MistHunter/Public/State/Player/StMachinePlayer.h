@@ -49,7 +49,7 @@ public:
 	void SetWalkSpeed(float _speed); 
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite);
-	float maxSprint;
+	float maxSprint = 540.0;
 	float maxWalk;
 	
 
@@ -58,12 +58,20 @@ public:
 	USkeletalMeshComponent* GetMeshComponent();
 	UAniPlayer* GetAniPlayer();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly);
+	FRotator targetMoveRotation;
+
 	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "Player Animation Idle"))
 	void SetAnimStateIdle();
+
 	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "Player Animation Walk"))
 	void SetAnimStateWalk();
+
 	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "Player Animation Jog"))
 	void SetAnimStateJog();
+
+	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "Player Animation Pivot"))
+	void SetAnimStatePivot();
 
 	//converted math functions
 	float MathAbs(float _a);

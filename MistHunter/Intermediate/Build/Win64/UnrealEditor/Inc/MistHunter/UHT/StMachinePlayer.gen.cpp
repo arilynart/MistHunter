@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 // Cross Module References
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	MISTHUNTER_API UClass* Z_Construct_UClass_AStMachinePlayer();
 	MISTHUNTER_API UClass* Z_Construct_UClass_AStMachinePlayer_NoRegister();
@@ -62,6 +63,11 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 	void AStMachinePlayer::SetAnimStateJog()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AStMachinePlayer_SetAnimStateJog),NULL);
+	}
+	static FName NAME_AStMachinePlayer_SetAnimStatePivot = FName(TEXT("SetAnimStatePivot"));
+	void AStMachinePlayer::SetAnimStatePivot()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AStMachinePlayer_SetAnimStatePivot),NULL);
 	}
 	static FName NAME_AStMachinePlayer_SetAnimStateWalk = FName(TEXT("SetAnimStateWalk"));
 	void AStMachinePlayer::SetAnimStateWalk()
@@ -123,6 +129,29 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot_Statics::Function_MetaDataParams[] = {
+		{ "DisplayName", "Player Animation Pivot" },
+		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStMachinePlayer, nullptr, "SetAnimStatePivot", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot_Statics::Function_MetaDataParams), Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -318,6 +347,10 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_maxSprint_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_maxSprint;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_targetMoveRotation_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_targetMoveRotation;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -330,6 +363,7 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AStMachinePlayer_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AStMachinePlayer_SetAnimStateIdle, "SetAnimStateIdle" }, // 297305537
 		{ &Z_Construct_UFunction_AStMachinePlayer_SetAnimStateJog, "SetAnimStateJog" }, // 1595448434
+		{ &Z_Construct_UFunction_AStMachinePlayer_SetAnimStatePivot, "SetAnimStatePivot" }, // 909618320
 		{ &Z_Construct_UFunction_AStMachinePlayer_SetAnimStateWalk, "SetAnimStateWalk" }, // 1001782769
 		{ &Z_Construct_UFunction_AStMachinePlayer_StateLook, "StateLook" }, // 1214484847
 		{ &Z_Construct_UFunction_AStMachinePlayer_StateMove, "StateMove" }, // 254835520
@@ -352,8 +386,16 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint = { "maxSprint", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AStMachinePlayer, maxSprint), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint_MetaData), Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_targetMoveRotation_MetaData[] = {
+		{ "Category", "StMachinePlayer" },
+		{ "ModuleRelativePath", "Public/State/Player/StMachinePlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_targetMoveRotation = { "targetMoveRotation", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AStMachinePlayer, targetMoveRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_targetMoveRotation_MetaData), Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_targetMoveRotation_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStMachinePlayer_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_maxSprint,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStMachinePlayer_Statics::NewProp_targetMoveRotation,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AStMachinePlayer_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AStMachinePlayer>::IsAbstract,
@@ -392,9 +434,9 @@ void EmptyLinkFunctionForGeneratedCodeStMachinePlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AStMachinePlayer, AStMachinePlayer::StaticClass, TEXT("AStMachinePlayer"), &Z_Registration_Info_UClass_AStMachinePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStMachinePlayer), 4163669552U) },
+		{ Z_Construct_UClass_AStMachinePlayer, AStMachinePlayer::StaticClass, TEXT("AStMachinePlayer"), &Z_Registration_Info_UClass_AStMachinePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStMachinePlayer), 1006070161U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_1815394153(TEXT("/Script/MistHunter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_118767863(TEXT("/Script/MistHunter"),
 		Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Sourcetree_MistHunter_MistHunter_Source_MistHunter_Public_State_Player_StMachinePlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -26,14 +26,23 @@ public:
 	void SprintEnd() override;
 
 	void Tick(float _deltaTime) override;
+
+	
 	bool movementEndSwitch;
+	bool pivotEnterSwitch;
+	bool pivotStart;
+	bool moving;
+	bool sprinting;
 
 	static StPlayer& GetInstance();
 
-	FRotator targetMoveRotation;
+
+
 
 	~StPlayerIdle();
 
 private:
 	AStMachinePlayer* PlayerMachine;
+	float moveCount = 0;
+	float moveMin;
 };
